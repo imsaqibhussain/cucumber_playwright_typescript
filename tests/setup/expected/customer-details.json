@@ -1,0 +1,18 @@
+{
+  "customer": {
+    "Email": "planpaytestingautomation3896@mailinator.com",
+    "firstName": "planpaytesting_firstNameoFpl",
+    "lastName": "planpaytesting_lastNamebDaM",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "eventProcessorError": "false",
+  "isResetFlag": "false",
+  "planCreated": "true"
+}

@@ -1,2 +1,1 @@
-# cucumber_playwright_typescript
-Cucumber playwright typescript project
+testing project

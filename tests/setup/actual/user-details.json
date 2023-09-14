@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1y61aq8kagv9",
+    "emailAddress": "planpaytestingautomation2152@mailinator.com",
+    "phoneNumber": "+61345678999",
+    "firstName": "planpaytesting_firstNameSQmX",
+    "lastName": "planpaytesting_lastNamekdfY",
+    "status": "Active",
+    "defaultLocale": null,
+    "billingAddressId": null,
+    "createdAt": "2023-02-09T02:09:12.000Z",
+    "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$lg8nD/RMeWfRdyGOm25f9g$Pt5OcwzYcqR+179uHrk4GM+yBDzEHWccUm1OJwJeyN0",
+    "isSubscribed": { "type": "Buffer", "data": [1] },
+    "isTestAccount": { "type": "Buffer", "data": [0] }
+  }
+]

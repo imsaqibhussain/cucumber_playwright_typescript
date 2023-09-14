@@ -1,0 +1,226 @@
+{
+  "planSummary": {
+    "completionDate": "21/10/2023",
+    "planDate": "28/08/2023",
+    "effectiveDate": "09/10/2023",
+    "lastPaymentDate": "09/10/2023",
+    "paymentsFrom": "09/10/2023",
+    "totalCost": "400.00",
+    "installmentPeriod": "Fortnightly",
+    "InstallmentDay": "Monday",
+    "totalNoOfInstallments": "4",
+    "numberOfInstalment": "0",
+    "installmentAmount": "16.66",
+    "priceWidget": "10.00",
+    "percentageInstallmentPaid": "100",
+    "paymentMethod": "0341",
+    "planStatus": "Completed",
+    "planID": "tlnxoh9l4quq",
+    "remainingAmount": "0.00",
+    "totalFunds": "400.00",
+    "noOfInstallmentsPaid": "4",
+    "Remainder": "0.02",
+    "noOfInstallmentsToBePaid": "0",
+    "redemptionDate": "20/11/2023",
+    "checkoutCurrency": "AUD",
+    "currencySymbol": "$",
+    "message": "successful",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Managed",
+    "checkoutType": "customer-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "selectedInstallmentPeriod": "Weekly",
+    "selectedInstalmentType": "Monthly",
+    "Weekly": {
+      "totalNoOfInstallments": "6",
+      "numberOfInstalment": "5",
+      "instalmentDate": 7,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "10.00"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "4",
+      "numberOfInstalment": "3",
+      "instalmentDate": 14,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "16.66"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "2",
+      "numberOfInstalment": "1",
+      "instalmentDate": 28,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "50.00"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "defaultMinDeposit",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "350.00",
+    "MaxDepositAmount": "390",
+    "depositPaid": "350.02",
+    "depositExcludingRemainder": "350.00",
+    "evenInstalmentAmount": "50.00",
+    "MaxDepositAmount_rounddown": "350.00",
+    "requiredMinimumDeposit_roundup": "350.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "11.23",
+    "planPayFeesSoFar": "29.56",
+    "merchantRevenue": "337.12",
+    "TotalServiceFeesExcGST": "20",
+    "ServiceFeesExcGSTonPaid": "18.33",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "YapNalp Hotels",
+    "merchantId": "000abcd00ef0",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["2"],
+    "productsAmount": ["200.00"],
+    "producItem": "Superior Deluxe King Guest room 1 King",
+    "items": [
+      {
+        "description": "Superior Deluxe King Guest room 1 King",
+        "redemptionDate": "20/November/2023"
+      }
+    ],
+    "poilcyType": ""
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "true",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false",
+    "latePayment": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": [
+      "Superior Deluxe King Guest room 1 King",
+      "Superior Deluxe Twin Guest room 2 Twin/Single Bed(s)",
+      "Superior Studio Twin Larger Guest room 2 Double",
+      "Club King Club lounge access Guest room 1 King",
+      "Presidential Suite Club lounge access High floor"
+    ],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation9009@mailinator.com",
+    "firstName": "planpaytesting_firstNamekwbF",
+    "lastName": "planpaytesting_lastNamejjPi",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "28/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [],
+  "paidPayments": [
+    {
+      "amount": "350.02",
+      "date": "28/08/2023",
+      "actualPaidDate": "28/08/2023",
+      "instalment": "1/4",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.02",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "350.02",
+          "amountRefunded": "0"
+        },
+        "Refund": { "amountcapturedAvailable": "0", "amountRefunded": "0" }
+      },
+      "paymentGatewayFee": 10.45,
+      "MerchantTransactionFee": 10.45,
+      "paymentGatewayFeeExcludedSalesTax": 9.5,
+      "serviceFee": 17.5
+    },
+    {
+      "amount": "16.66",
+      "date": "11/09/2023",
+      "instalment": "2/4",
+      "status": "Paid",
+      "paymentType": "LATE",
+      "remainder": "0.00",
+      "type": {
+        "Charge": { "amountcapturedAvailable": "16.66", "amountRefunded": "0" },
+        "Refund": { "amountcapturedAvailable": "0", "amountRefunded": "0" }
+      },
+      "paymentMethodUsed": "0005",
+      "actualPaidDate": "11/09/2023",
+      "paymentGatewayFee": 0.78,
+      "MerchantTransactionFee": 0.78,
+      "paymentGatewayFeeExcludedSalesTax": 0.709090909091,
+      "serviceFee": 0.83
+    },
+    {
+      "amount": "16.66",
+      "date": "25/09/2023",
+      "instalment": "3/4",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.00",
+      "type": {
+        "Charge": { "amountcapturedAvailable": "16.66", "amountRefunded": "0" },
+        "Refund": { "amountcapturedAvailable": "0", "amountRefunded": "0" }
+      },
+      "paymentMethodUsed": "0341",
+      "actualPaidDate": "25/09/2023"
+    },
+    {
+      "amount": "16.66",
+      "date": "09/10/2023",
+      "instalment": "4/4",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.00",
+      "type": {
+        "Charge": { "amountcapturedAvailable": "16.66", "amountRefunded": "0" },
+        "Refund": { "amountcapturedAvailable": "0", "amountRefunded": "0" }
+      },
+      "paymentMethodUsed": "0341",
+      "actualPaidDate": "09/10/2023"
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "YapNalp Hotels",
+    "operationType": "",
+    "installmentType": "Fortnightly",
+    "screen": "CheckoutSummary"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "currencyCode": "AUD",
+    "label": "Australian dollars",
+    "currencySymbol": "$",
+    "format": "AustralianCurrencyFormatter",
+    "createdAt": "2023-02-08T15:17:07.000Z",
+    "updatedAt": "2023-02-27T12:34:54.496Z",
+    "minimumPaymentAmount": 10,
+    "maximumPaymentAmount": 1000
+  }
+]

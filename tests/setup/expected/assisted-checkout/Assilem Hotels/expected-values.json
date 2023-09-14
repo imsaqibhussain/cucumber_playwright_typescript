@@ -1,0 +1,269 @@
+{
+  "planSummary": {
+    "completionDate": "17/02/2024",
+    "planDate": "01/08/2023",
+    "lastPaymentDate": "14/02/2024",
+    "paymentsFrom": "01/08/2023",
+    "totalCost": "4500",
+    "installmentPeriod": "Fortnightly",
+    "InstallmentDay": "Wednesday",
+    "totalNoOfInstallments": "15",
+    "numberOfInstalment": "14",
+    "installmentAmount": "300.00",
+    "priceWidget": "",
+    "percentageInstallmentPaid": "7",
+    "paymentMethod": "4242",
+    "planStatus": "On Schedule",
+    "planID": "gwp3s0x3ibbz",
+    "remainingAmount": "4200.00",
+    "totalFunds": "300.00",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.00",
+    "noOfInstallmentsToBePaid": "14",
+    "redemptionDate": "18/03/2024",
+    "checkoutCurrency": "USD",
+    "currencySymbol": "$",
+    "message": "",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Managed",
+    "checkoutType": "assisted-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "Weekly": {
+      "totalNoOfInstallments": "15",
+      "numberOfInstalment": "14",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "353.33"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "15",
+      "numberOfInstalment": "14",
+      "instalmentDate": 14,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "300.00"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "7",
+      "numberOfInstalment": "6",
+      "instalmentDate": 1,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "353.33"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "evenInstalmentAmount",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "150.00",
+    "MaxDepositAmount": "1000.00",
+    "depositPaid": "300.00",
+    "depositExcludingRemainder": "300.00",
+    "evenInstalmentAmount": "300.00",
+    "MaxDepositAmount_rounddown": "1000.00",
+    "requiredMinimumDeposit_roundup": "150.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "9.41",
+    "planPayFeesSoFar": "24.41",
+    "merchantRevenue": "275.59",
+    "TotalServiceFeesExcGST": "225",
+    "ServiceFeesExcGSTonPaid": "15",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Assilem Hotels",
+    "merchantId": "u2bxn7leqclv",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "01/08/2023",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["4500.00"],
+    "producItem": "TwAmQ",
+    "items": [{ "description": "TwAmQ", "redemptionDate": "18/March/2024" }]
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": "",
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation9975@mailinator.com",
+    "firstName": "planpaytesting_firstNameCsYZ",
+    "lastName": "planpaytesting_lastNamepYIw",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "01/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "300.00",
+      "date": "16/08/2023",
+      "instalment": "2/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "30/08/2023",
+      "instalment": "3/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "13/09/2023",
+      "instalment": "4/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "27/09/2023",
+      "instalment": "5/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "11/10/2023",
+      "instalment": "6/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "25/10/2023",
+      "instalment": "7/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "08/11/2023",
+      "instalment": "8/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "22/11/2023",
+      "instalment": "9/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "06/12/2023",
+      "instalment": "10/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "20/12/2023",
+      "instalment": "11/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "03/01/2024",
+      "instalment": "12/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "17/01/2024",
+      "instalment": "13/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "31/01/2024",
+      "instalment": "14/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "300.00",
+      "date": "14/02/2024",
+      "instalment": "15/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "300.00",
+      "date": "01/08/2023",
+      "actualPaidDate": "01/08/2023",
+      "instalment": "1/15",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.00",
+      "paymentGatewayFee": 9,
+      "MerchantTransactionFee": 9.41,
+      "paymentGatewayFeeExcludedSalesTax": 8.181818181818,
+      "serviceFee": 15
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "assisted-checkout",
+    "merchantName": "Assilem Hotels",
+    "operationType": "",
+    "installmentType": "Fortnightly"
+  }
+}

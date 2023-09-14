@@ -1,0 +1,265 @@
+{
+  "planSummary": {
+    "completionDate": "22/02/2024",
+    "planDate": "01/08/2023",
+    "lastPaymentDate": "14/02/2024",
+    "paymentsFrom": "01/08/2023",
+    "totalCost": "5300",
+    "installmentPeriod": "Fortnightly",
+    "InstallmentDay": "Wednesday",
+    "totalNoOfInstallments": "15",
+    "numberOfInstalment": "14",
+    "installmentAmount": "353.33",
+    "priceWidget": "",
+    "percentageInstallmentPaid": "7",
+    "paymentMethod": "4242",
+    "planStatus": "On Schedule",
+    "planID": "gzx9o2c9h931",
+    "remainingAmount": "4946.62",
+    "totalFunds": "353.38",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.05",
+    "noOfInstallmentsToBePaid": "14",
+    "redemptionDate": "23/03/2024",
+    "checkoutCurrency": "AUD",
+    "currencySymbol": "$",
+    "message": "",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Managed",
+    "checkoutType": "assisted-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "Weekly": {
+      "totalNoOfInstallments": "15",
+      "numberOfInstalment": "14",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "662.50"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "15",
+      "numberOfInstalment": "14",
+      "instalmentDate": 14,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "353.33"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "7",
+      "numberOfInstalment": "6",
+      "instalmentDate": 1,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "662.50"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "evenInstalmentAmount",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "175.00",
+    "MaxDepositAmount": "1000.00",
+    "depositPaid": "353.38",
+    "depositExcludingRemainder": "353.33",
+    "evenInstalmentAmount": "353.33",
+    "MaxDepositAmount_rounddown": "1000.00",
+    "requiredMinimumDeposit_roundup": "175.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "20.40",
+    "planPayFeesSoFar": "53.53",
+    "merchantRevenue": "608.97",
+    "TotalServiceFeesExcGST": "265",
+    "ServiceFeesExcGSTonPaid": "33.13",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Shonrate Hotels",
+    "merchantId": "631adba97bf3",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "01/08/2023",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["5300.00"],
+    "producItem": "gMOII",
+    "items": [{ "description": "gMOII", "redemptionDate": "24/March/2024" }]
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": "",
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation9975@mailinator.com",
+    "firstName": "planpaytesting_firstNameCsYZ",
+    "lastName": "planpaytesting_lastNamepYIw",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "01/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "353.33",
+      "date": "16/08/2023",
+      "instalment": "2/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "30/08/2023",
+      "instalment": "3/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "13/09/2023",
+      "instalment": "4/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "27/09/2023",
+      "instalment": "5/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "11/10/2023",
+      "instalment": "6/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "25/10/2023",
+      "instalment": "7/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "08/11/2023",
+      "instalment": "8/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "22/11/2023",
+      "instalment": "9/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "06/12/2023",
+      "instalment": "10/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "20/12/2023",
+      "instalment": "11/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "03/01/2024",
+      "instalment": "12/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "17/01/2024",
+      "instalment": "13/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "31/01/2024",
+      "instalment": "14/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "353.33",
+      "date": "14/02/2024",
+      "instalment": "15/15",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "353.38",
+      "date": "01/08/2023",
+      "actualPaidDate": "01/08/2023",
+      "instalment": "1/15",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.05"
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "assisted-checkout",
+    "merchantName": "Shonrate Hotels",
+    "operationType": "",
+    "installmentType": "Fortnightly"
+  }
+}

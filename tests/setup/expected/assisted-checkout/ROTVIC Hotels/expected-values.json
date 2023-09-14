@@ -1,0 +1,282 @@
+{
+  "planSummary": {
+    "completionDate": "01/12/2023",
+    "planDate": "09/08/2023",
+    "lastPaymentDate": "20/11/2023",
+    "paymentsFrom": "28/08/2023",
+    "totalCost": "3000.00",
+    "installmentPeriod": "Fortnightly",
+    "InstallmentDay": "Monday",
+    "totalNoOfInstallments": "8",
+    "numberOfInstalment": "6",
+    "installmentAmount": "364.28",
+    "priceWidget": "159.37",
+    "percentageInstallmentPaid": "15",
+    "paymentMethod": "4242",
+    "planStatus": "On Schedule",
+    "planID": "f7l4hbo4j2m9",
+    "remainingAmount": "2185.68",
+    "totalFunds": "814.32",
+    "noOfInstallmentsPaid": "2",
+    "Remainder": "0.04",
+    "noOfInstallmentsToBePaid": "6",
+    "redemptionDate": "01/12/2023",
+    "checkoutCurrency": "AUD",
+    "currencySymbol": "$",
+    "message": "successful",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Enterprise",
+    "checkoutType": "customer-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "selectedInstallmentPeriod": "Weekly",
+    "selectedInstalmentType": "Monthly",
+    "Weekly": {
+      "totalNoOfInstallments": "17",
+      "numberOfInstalment": "16",
+      "instalmentDate": 7,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "159.37"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "8",
+      "numberOfInstalment": "7",
+      "instalmentDate": 14,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "364.28"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "4",
+      "numberOfInstalment": "3",
+      "instalmentDate": 9,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "850.00"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "defaultMinDeposit",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "450.00",
+    "MaxDepositAmount": "2990",
+    "depositPaid": "450.04",
+    "depositExcludingRemainder": "450.00",
+    "evenInstalmentAmount": "176.47",
+    "MaxDepositAmount_rounddown": "2950.00",
+    "requiredMinimumDeposit_roundup": "450.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "25.31",
+    "planPayFeesSoFar": "40.71",
+    "merchantRevenue": "773.61",
+    "TotalServiceFeesExcGST": "150",
+    "ServiceFeesExcGSTonPaid": "40.71",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "ROTVIC Hotels",
+    "merchantId": "ffue5jqyrctz",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "09/08/2023",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "0.00",
+    "reason": "",
+    "totalRefundableAmount": "550.00"
+  },
+  "planDetails": {
+    "productsQuantity": ["1", "1", "1"],
+    "productsAmount": ["500.00", "1000.00", "1500.00"],
+    "producItem": "Superior Deluxe Twin Guest room 2 Twin/Single Bed(s)$Superior Studio Twin Larger Guest room 2 Double$Club King Club lounge access Guest room 1 King",
+    "items": [
+      {
+        "description": "Superior Deluxe Twin Guest room 2 Twin/Single Bed(s)",
+        "redemptionDate": "1/August/2024",
+        "daysFromCancellationtoRedemtion": "358",
+        "depositAmount": "150.00",
+        "depositRefundable": "true",
+        "nonRefundableDeposit": "0.00",
+        "effectiveFinalNonRefundableAmountItem": "0.00",
+        "itemRefundableAmount": "500.00",
+        "howThisIsCalculated": [
+          { "milestoneDate1": "12 June 2024", "nonRefundableAmount1": "0.00" },
+          {
+            "milestoneDate2": "12 July 2024",
+            "nonRefundableAmount2": "150.00"
+          },
+          { "milestoneDate3": "22 July 2024", "nonRefundableAmount3": "250.00" }
+        ]
+      },
+      {
+        "description": "Superior Studio Twin Larger Guest room 2 Double",
+        "redemptionDate": "1/December/2023",
+        "daysFromCancellationtoRedemtion": "114",
+        "depositAmount": "150.00",
+        "depositRefundable": "true",
+        "nonRefundableDeposit": "0.00",
+        "effectiveFinalNonRefundableAmountItem": "0.00",
+        "itemRefundableAmount": "1000.00",
+        "howThisIsCalculated": [
+          { "milestoneDate1": "02 Oct 2023", "nonRefundableAmount1": "600.00" },
+          { "milestoneDate2": "01 Nov 2023", "nonRefundableAmount2": "700.00" },
+          { "milestoneDate3": "16 Nov 2023", "nonRefundableAmount3": "800.00" }
+        ]
+      },
+      {
+        "description": "Club King Club lounge access Guest room 1 King",
+        "redemptionDate": "25/March/2024",
+        "daysFromCancellationtoRedemtion": "229",
+        "depositAmount": "150.00",
+        "depositRefundable": "true",
+        "nonRefundableDeposit": "0.00",
+        "effectiveFinalNonRefundableAmountItem": "0.00",
+        "itemRefundableAmount": "1500.00",
+        "howThisIsCalculated": [
+          { "milestoneDate1": "25 Jan 2024", "nonRefundableAmount1": "900.00" },
+          {
+            "milestoneDate2": "24 Feb 2024",
+            "nonRefundableAmount2": "1050.00"
+          },
+          { "milestoneDate3": "10 Mar 2024", "nonRefundableAmount3": "1200.00" }
+        ]
+      }
+    ],
+    "poilcyType": ""
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": [
+      "Superior Deluxe King Guest room 1 King",
+      "Superior Deluxe Twin Guest room 2 Twin/Single Bed(s)",
+      "Superior Studio Twin Larger Guest room 2 Double",
+      "Club King Club lounge access Guest room 1 King",
+      "Presidential Suite Club lounge access High floor"
+    ],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation6665@mailinator.com",
+    "firstName": "planpaytesting_firstNameObBT",
+    "lastName": "planpaytesting_lastNameCNVr",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "09/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "364.28",
+      "date": "11/09/2023",
+      "instalment": "3/8",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "364.28",
+      "date": "25/09/2023",
+      "instalment": "4/8",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "364.28",
+      "date": "09/10/2023",
+      "instalment": "5/8",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "364.28",
+      "date": "23/10/2023",
+      "instalment": "6/8",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "364.28",
+      "date": "06/11/2023",
+      "instalment": "7/8",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "364.28",
+      "date": "20/11/2023",
+      "instalment": "8/8",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "450.04",
+      "date": "09/08/2023",
+      "actualPaidDate": "09/08/2023",
+      "instalment": "1/8",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.04",
+      "paymentGatewayFee": 13.35,
+      "MerchantTransactionFee": 13.96,
+      "paymentGatewayFeeExcludedSalesTax": 12.136363636364,
+      "serviceFee": 22.5
+    },
+    {
+      "amount": "364.28",
+      "date": "28/08/2023",
+      "actualPaidDate": "09/08/2023",
+      "instalment": "2/8",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "ADVANCE",
+      "remainder": "0.00",
+      "paymentGatewayFee": 10.86,
+      "MerchantTransactionFee": 11.35,
+      "paymentGatewayFeeExcludedSalesTax": 9.872727272727,
+      "serviceFee": 18.21
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "ROTVIC Hotels",
+    "operationType": "",
+    "installmentType": "Fortnightly",
+    "screen": "CheckoutSummary"
+  }
+}

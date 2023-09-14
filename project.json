@@ -1,0 +1,36 @@
+{
+  "name": "qa-automation",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/qa-automation/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "cucumber-js --require cucumber.js -f json:tests/report/report.json --publish"
+        ],
+        "cwd": "apps/qa-automation",
+        "parallel": false
+      }
+    },
+    "smoke": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "cucumber-js --require cucumber.js -f json:tests/report/report.json tests/features/smoke-testing.feature"
+        ],
+        "cwd": "apps/qa-automation",
+        "parallel": false
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/qa-automation/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

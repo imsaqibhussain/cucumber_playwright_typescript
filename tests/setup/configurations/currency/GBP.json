@@ -1,0 +1,12 @@
+[
+  {
+    "currencyCode": "GBP",
+    "label": "British Pound",
+    "currencySymbol": "£",
+    "format": "BritishCurrencyFormatter",
+    "createdAt": "2023-04-21T03:42:03.000Z",
+    "updatedAt": "2023-06-20T03:35:57.066Z",
+    "minimumPaymentAmount": 10,
+    "maximumPaymentAmount": 1000
+  }
+]

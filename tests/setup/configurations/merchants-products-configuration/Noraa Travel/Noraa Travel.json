@@ -1,0 +1,112 @@
+{
+  "merchant": {
+    "id": "630880668a41",
+    "name": "Noraa Travel",
+    "companyEmail": "noraaTravel@yopmail.com",
+    "phoneNumber": "+6111 1111 1111",
+    "merchantSupportEmail": "planpaymerchantsupport_noraaTravel@planpay.testinator.com",
+    "customerSupportEmail": "planpaycustomersupport_noraaTravel@planpay.testinator.com",
+    "merchantPageUrl": "https://noraaTravel.example.com/",
+    "billingAddressId": "691add29334d",
+    "defaultPaymentDeadlineInDays": 30,
+    "serviceFeePercentage": "5",
+    "createdAt": "2023-06-09T13:04:12.000Z",
+    "updatedAt": "2023-06-09T13:04:11.759Z",
+    "defaultMinimumDepositType": "Currency",
+    "defaultMinimumDepositValue": "120",
+    "countryAlpha3Code": "AUS",
+    "status": "Active",
+    "googleAnalyticsMeasurementID": "UA-256331111-1",
+    "merchantGroupId": null,
+    "line1": "43 Cherokee Road",
+    "line2": "",
+    "city": "Korweinguboora",
+    "state": "NSW",
+    "postcode": "3461",
+    "MerchantDefaultRefundPolicy": [
+      {
+        "merchantId": "630880668a41",
+        "refundPolicyId": "630880668rp1",
+        "type": "percentage_refundable_days_within_redemption_date",
+        "daysWithinRedemptionDate": 60,
+        "refundablePercentage": "100"
+      },
+      {
+        "merchantId": "630880668a41",
+        "refundPolicyId": "630880668rp2",
+        "type": "percentage_refundable_days_within_redemption_date",
+        "daysWithinRedemptionDate": 30,
+        "refundablePercentage": "70"
+      },
+      {
+        "merchantId": "630880668a41",
+        "refundPolicyId": "630880668rp3",
+        "type": "percentage_refundable_days_within_redemption_date",
+        "daysWithinRedemptionDate": 15,
+        "refundablePercentage": "50"
+      }
+    ],
+    "MerchantPaymentPlatform": [
+      {
+        "id": "0lbl2abda742",
+        "merchantId": "630880668a41",
+        "paymentPlatformId": "79a26ad1085b",
+        "default": true,
+        "label": "Managed Stripe AUD",
+        "vendor": "Stripe",
+        "variant": "Managed",
+        "MerchantPaymentPlatformCurrency": [
+          {
+            "id": "xcz123m09kp2",
+            "merchantPaymentPlatformId": "0lbl2abda742",
+            "currencyCode": "AUD",
+            "default": true,
+            "transactionFeeCurrencyCode": "AUD",
+            "appliesFrom": null,
+            "appliesUntil": null,
+            "scope": "Domestic",
+            "createdAt": "2023-04-21T03:42:06.000Z",
+            "updatedAt": "2023-06-09T13:04:33.856Z",
+            "markupFeePercentage": "15",
+            "transactionFeeIncludedSalesTax": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "products": {
+    "merchantId": "630880668a41",
+    "name": "Noraa Travel",
+    "merchantOrderId": "yrcmpny-123-abcsdha9gck65e5",
+    "paymentPlatform": [{ "variant": "Managed", "currencyCode": "AUD" }],
+    "items": [
+      {
+        "id": "1",
+        "productName": "Airline flight",
+        "pageUrl": "https://images.unsplash.com/photo-1670572157788-20f2c55204ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80",
+        "imageUrl": "https://images.unsplash.com/photo-1670572157788-20f2c55204ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80",
+        "price": { "amount": 50, "currency": "AUD" },
+        "sku": "PP-FLT-123",
+        "quantity": 1,
+        "shipmentDate": "2023-12-13T03:06:24.999Z",
+        "minimumDepositPerItem": { "unit": "Currency", "value": 5 },
+        "paymentDeadline": 30,
+        "depositRefundable": true
+      },
+      {
+        "id": "2",
+        "productName": "Hotel booking",
+        "sku": "BK-HTL-456",
+        "pageUrl": "https://images.unsplash.com/photo-1666913804166-7dae710dcd50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3ZvbG98ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
+        "imageUrl": "https://images.unsplash.com/photo-1666913804166-7dae710dcd50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3ZvbG98ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
+        "price": { "amount": 500, "currency": "AUD" },
+        "quantity": 1,
+        "shipmentDate": "2023-12-13T03:06:24.999Z",
+        "minimumDepositPerItem": { "unit": "Currency", "value": 250 },
+        "paymentDeadline": 0,
+        "depositRefundable": true
+      }
+    ],
+    "itemArray": ["Airline flight", "Hotel booking"]
+  }
+}

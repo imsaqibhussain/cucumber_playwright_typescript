@@ -1,0 +1,164 @@
+{
+  "planSummary": {
+    "completionDate": "10/09/2023",
+    "planDate": "26/04/2023",
+    "lastPaymentDate": "31/08/2023",
+    "totalCost": "1587.00",
+    "installmentPeriod": "Monthly",
+    "totalNoOfInstallments": "6",
+    "numberOfInstalment": "5",
+    "installmentAmount": "265.40",
+    "priceWidget": "69.84",
+    "percentageInstallmentPaid": "16",
+    "paymentMethod": "4444",
+    "planStatus": "On Schedule",
+    "planID": "wb9dzdwzw4yj",
+    "remainingAmount": "1327.00",
+    "totalFunds": "260.00",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.00",
+    "noOfInstallmentsToBePaid": "5",
+    "redemptionDate": "10/10/2023",
+    "checkoutCurrency": "USD",
+    "message": "successful",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Managed"
+  },
+  "depositSettings": {
+    "depositRuleApplied": "min",
+    "depositSetting": "min",
+    "requiredMinimumDeposit": "260.00",
+    "MaxDepositAmount": "1000.00",
+    "depositPaid": "260.00",
+    "depositExcludingRemainder": "260.00",
+    "evenInstalmentAmount": "264.50"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "12.58",
+    "planPayFeesSoFar": "26.88",
+    "merchantRevenue": "233.12",
+    "TotalServiceFeesExcGST": "79.35",
+    "TotalServiceFeesIncGST": "87.29",
+    "ServiceFeesIncGSTonPaid": "14.3",
+    "ServiceFeesExcGSTonPaid": "13"
+  },
+  "merchantDetails": {
+    "merchantName": "Atura Hotels",
+    "merchantId": "u2bxn7leqclv"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "daysFromCancellationtoRedemtion": "19",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "0.00",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["2", "1"],
+    "productsAmount": ["429.00", "729.00"],
+    "producItem": "Garden Twin Room$Entertainer King Room",
+    "items": [
+      {
+        "description": "Garden Twin Room",
+        "redemptionDate": "10/October/2023",
+        "depositRefundable": true,
+        "depositRefundableSetting": "productLevel",
+        "refundPolicies": [],
+        "refundPoliciesSetting": "merchantLevel",
+        "nonRefundableDeposit": 0
+      },
+      {
+        "description": "Entertainer King Room",
+        "redemptionDate": "20/December/2023",
+        "depositRefundable": false,
+        "depositRefundableSetting": "productLevel",
+        "refundPolicies": [],
+        "refundPoliciesSetting": "merchantLevel",
+        "nonRefundableDeposit": 250
+      }
+    ]
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["Garden Twin Room", "Entertainer King Room"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation3020@planpay.testinator.com",
+    "firstName": "planpaytesting_firstNamexwRE",
+    "lastName": "planpaytesting_lastNamefXIf",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "265.40",
+      "date": "30/04/2023",
+      "instalment": "2/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "265.40",
+      "date": "31/05/2023",
+      "instalment": "3/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "265.40",
+      "date": "30/06/2023",
+      "instalment": "4/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "265.40",
+      "date": "31/07/2023",
+      "instalment": "5/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "265.40",
+      "date": "31/08/2023",
+      "instalment": "6/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "260.00",
+      "date": "26/04/2023",
+      "instalment": "1/6",
+      "paymentMethodUsed": "4444",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "paymentGatewayFee": 11.44,
+      "MerchantTransactionFee": 12.58
+    }
+  ],
+  "latePayments": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "Atura Hotels"
+  }
+}

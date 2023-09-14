@@ -1,0 +1,14 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+videos/
+screenshots/
+/screenshot/
+.direnv
+/tests/report
+output.txt
+/tests/setup/actual/events-transactions.json
+/tests/features/dev.feature
+tests/setup/actual/downloaded-reports
+screenshot/

@@ -1,0 +1,163 @@
+{
+  "planSummary": {
+    "completionDate": "10/10/2023",
+    "planDate": "26/04/2023",
+    "lastPaymentDate": "01/10/2023",
+    "totalCost": "2187.00",
+    "installmentPeriod": "Monthly",
+    "totalNoOfInstallments": "7",
+    "numberOfInstalment": "6",
+    "installmentAmount": "59.50",
+    "priceWidget": "62.47",
+    "percentageInstallmentPaid": "84",
+    "paymentMethod": "4444",
+    "planStatus": "Cancelled",
+    "planID": "k1lhtk2rl0b4",
+    "remainingAmount": "357.00",
+    "totalFunds": "1830.00",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.00",
+    "noOfInstallmentsToBePaid": "6",
+    "redemptionDate": "10/10/2023",
+    "checkoutCurrency": "AUD",
+    "message": "successful",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Enterprise"
+  },
+  "depositSettings": {
+    "depositRuleApplied": "random",
+    "depositSetting": "random",
+    "requiredMinimumDeposit": "750.00",
+    "MaxDepositAmount": "2177",
+    "depositPaid": "1830.00",
+    "depositExcludingRemainder": "1830.00",
+    "evenInstalmentAmount": "312.42"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "0.00",
+    "planPayFeesSoFar": "100.65",
+    "merchantRevenue": "815.35",
+    "TotalServiceFeesExcGST": "109.35",
+    "TotalServiceFeesIncGST": "120.29",
+    "ServiceFeesIncGSTonPaid": "100.65",
+    "ServiceFeesExcGSTonPaid": "91.5"
+  },
+  "merchantDetails": {
+    "merchantName": "QT Hotels",
+    "merchantId": "ffue5jqyrctz"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "26/04/2023",
+    "refundType": "Partial",
+    "refundAmount": "914.00",
+    "ActualRefundAmountUI": "NaN",
+    "daysFromCancellationtoRedemtion": "NaN",
+    "FinalNonRefundAmount": "NaN",
+    "CustomerRefundValue": "NaN",
+    "nonRefundableDeposit": "0.00",
+    "totalNonRefundableDeposit": "",
+    "reason": "Customer requested to cancel"
+  },
+  "planDetails": {
+    "productsQuantity": ["3"],
+    "productsAmount": ["729.00"],
+    "producItem": "QT Corner Suite",
+    "items": [
+      {
+        "description": "QT Corner Suite",
+        "redemptionDate": "10/October/2023",
+        "depositRefundable": false,
+        "depositRefundableSetting": "productLevel",
+        "refundPolicies": [],
+        "refundPoliciesSetting": "merchantLevel",
+        "nonRefundableDeposit": 750,
+        "howThisIsCalculated": []
+      }
+    ]
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["QT King", "QT Corner Suite"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation8335@mailinator.com",
+    "firstName": "planpaytesting_firstNametKxw",
+    "lastName": "planpaytesting_lastNameFqPm",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "59.50",
+      "date": "01/05/2023",
+      "instalment": "2/7",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "59.50",
+      "date": "01/06/2023",
+      "instalment": "3/7",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "59.50",
+      "date": "01/07/2023",
+      "instalment": "4/7",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "59.50",
+      "date": "01/08/2023",
+      "instalment": "5/7",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "59.50",
+      "date": "01/09/2023",
+      "instalment": "6/7",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "59.50",
+      "date": "01/10/2023",
+      "instalment": "7/7",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "1830.00",
+      "date": "26/04/2023",
+      "instalment": "1/7",
+      "paymentMethodUsed": "4444",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "paymentGatewayFee": 0,
+      "MerchantTransactionFee": 0
+    }
+  ],
+  "latePayments": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "QT Hotels"
+  }
+}

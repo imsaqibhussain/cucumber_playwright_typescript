@@ -1,0 +1,243 @@
+{
+  "planSummary": {
+    "completionDate": "30/10/2023",
+    "planDate": "18/08/2023",
+    "lastPaymentDate": "26/10/2023",
+    "paymentsFrom": "18/08/2023",
+    "totalCost": "20000.00",
+    "installmentPeriod": "Weekly",
+    "InstallmentDay": "Thursday",
+    "totalNoOfInstallments": "10",
+    "numberOfInstalment": "9",
+    "installmentAmount": "1350.00",
+    "priceWidget": "1995.00",
+    "percentageInstallmentPaid": "39",
+    "paymentMethod": "1111",
+    "planStatus": "On Schedule",
+    "planID": "m210qbghi5df",
+    "remainingAmount": "12150.00",
+    "totalFunds": "7850.00",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.00",
+    "noOfInstallmentsToBePaid": "9",
+    "redemptionDate": "24/11/2023",
+    "checkoutCurrency": "AUD",
+    "currencySymbol": "$",
+    "message": "successful",
+    "paymentPlatform_vendor": "Braintree",
+    "paymentPlatform_variant": "Enterprise",
+    "checkoutType": "customer-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "selectedInstallmentPeriod": "Fortnightly",
+    "selectedInstalmentType": "Monthly",
+    "Weekly": {
+      "totalNoOfInstallments": "10",
+      "numberOfInstalment": "9",
+      "instalmentDate": 7,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "1350.00"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "6",
+      "numberOfInstalment": "5",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "1030.00"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "3",
+      "numberOfInstalment": "2",
+      "instalmentDate": 18,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "2575.00"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "random",
+    "depositSetting": "random",
+    "requiredMinimumDeposit": "50.00",
+    "MaxDepositAmount": "19990",
+    "depositPaid": "7850.00",
+    "depositExcludingRemainder": "7850.00",
+    "evenInstalmentAmount": "1818.18",
+    "MaxDepositAmount_rounddown": "19950.00",
+    "requiredMinimumDeposit_roundup": "50.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "0.00",
+    "planPayFeesSoFar": "392.50",
+    "merchantRevenue": "7457.50",
+    "TotalServiceFeesExcGST": "1000",
+    "ServiceFeesExcGSTonPaid": "392.5",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Idnib Flights",
+    "merchantId": "apgit66vzosi",
+    "sub_merchantName": "Idnib Flights",
+    "sub_merchantId": "123bbbb45bb6",
+    "checkoutCategory": "submerchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "18/08/2023",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "50.00",
+    "reason": "",
+    "totalRefundableAmount": "19950.00"
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["20000.00"],
+    "producItem": "Holiday",
+    "items": [
+      { "description": "Holiday", "redemptionDate": "24/November/2023" }
+    ],
+    "poilcyType": ""
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false",
+    "latePayment": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["Holiday"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation6180@mailinator.com",
+    "firstName": "planpaytesting_firstNamenAVm",
+    "lastName": "planpaytesting_lastNameSIBU",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "18/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "1350.00",
+      "date": "31/08/2023",
+      "instalment": "2/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "1350.00",
+      "date": "07/09/2023",
+      "instalment": "3/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "1350.00",
+      "date": "14/09/2023",
+      "instalment": "4/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "1350.00",
+      "date": "21/09/2023",
+      "instalment": "5/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "1350.00",
+      "date": "28/09/2023",
+      "instalment": "6/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "1350.00",
+      "date": "05/10/2023",
+      "instalment": "7/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "1350.00",
+      "date": "12/10/2023",
+      "instalment": "8/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "1350.00",
+      "date": "19/10/2023",
+      "instalment": "9/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "1350.00",
+      "date": "26/10/2023",
+      "instalment": "10/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "7850.00",
+      "date": "18/08/2023",
+      "actualPaidDate": "18/08/2023",
+      "instalment": "1/10",
+      "paymentMethodUsed": "1111",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.00",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "7850.00",
+          "amountRefunded": "0.00"
+        }
+      },
+      "paymentGatewayFee": 0,
+      "MerchantTransactionFee": 0,
+      "paymentGatewayFeeExcludedSalesTax": 0,
+      "serviceFee": 392.5
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "Idnib Flights",
+    "operationType": "",
+    "installmentType": "Weekly",
+    "screen": "CheckoutSummary"
+  }
+}

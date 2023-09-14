@@ -1,0 +1,197 @@
+{
+  "planSummary": {
+    "completionDate": "16/12/2023",
+    "planDate": "26/07/2023",
+    "lastPaymentDate": "05/12/2023",
+    "paymentsFrom": "26/07/2023",
+    "totalCost": "3300",
+    "installmentPeriod": "Monthly",
+    "InstallmentDay": "5",
+    "totalNoOfInstallments": "6",
+    "numberOfInstalment": "5",
+    "installmentAmount": "550.00",
+    "priceWidget": "",
+    "percentageInstallmentPaid": "20",
+    "paymentMethod": "4242",
+    "planStatus": "On Schedule",
+    "planID": "8vuw9azuhkgs",
+    "remainingAmount": "2750.00",
+    "totalFunds": "550.00",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.00",
+    "noOfInstallmentsToBePaid": "5",
+    "redemptionDate": "15/01/2024",
+    "checkoutCurrency": "AUD",
+    "currencySymbol": "$",
+    "message": "",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Managed",
+    "checkoutType": "assisted-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "Weekly": {
+      "totalNoOfInstallments": "11",
+      "numberOfInstalment": "10",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "329.00"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "11",
+      "numberOfInstalment": "10",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "329.00"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "6",
+      "numberOfInstalment": "5",
+      "instalmentDate": 5,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "550.00"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "evenInstalmentAmount",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "120.00",
+    "MaxDepositAmount": "1000.00",
+    "depositPaid": "550.00",
+    "depositExcludingRemainder": "550.00",
+    "evenInstalmentAmount": "550.00",
+    "MaxDepositAmount_rounddown": "1000.00",
+    "requiredMinimumDeposit_roundup": "120.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "16.99",
+    "planPayFeesSoFar": "44.49",
+    "merchantRevenue": "505.51",
+    "TotalServiceFeesExcGST": "165",
+    "ServiceFeesExcGSTonPaid": "27.5",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Noraa Travel",
+    "merchantId": "630880668a41",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["3300.00"],
+    "producItem": "QkNLS",
+    "items": [{ "description": "QkNLS", "redemptionDate": "01/15/2024" }]
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": "",
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation8582@mailinator.com",
+    "firstName": "planpaytesting_firstNamemEAK",
+    "lastName": "planpaytesting_lastNameLdBv",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "26/07/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "550.00",
+      "date": "05/08/2023",
+      "instalment": "2/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "550.00",
+      "date": "05/09/2023",
+      "instalment": "3/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "550.00",
+      "date": "05/10/2023",
+      "instalment": "4/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "550.00",
+      "date": "05/11/2023",
+      "instalment": "5/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "550.00",
+      "date": "05/12/2023",
+      "instalment": "6/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "550.00",
+      "date": "26/07/2023",
+      "actualPaidDate": "26/07/2023",
+      "instalment": "1/6",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.00",
+      "paymentGatewayFee": 16.25,
+      "MerchantTransactionFee": 16.99,
+      "paymentGatewayFeeExcludedSalesTax": 14.772727272727,
+      "serviceFee": 27.5
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "assisted-checkout",
+    "merchantName": "Noraa Travel",
+    "operationType": "",
+    "installmentType": "Monthly"
+  }
+}

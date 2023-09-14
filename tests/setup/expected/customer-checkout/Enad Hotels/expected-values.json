@@ -1,0 +1,143 @@
+{
+  "planSummary": {
+    "completionDate": "20/09/2024",
+    "planDate": "07/08/2023",
+    "lastPaymentDate": "",
+    "paymentsFrom": "",
+    "totalCost": "20000.00",
+    "installmentPeriod": "",
+    "InstallmentDay": "",
+    "installmentAmount": "",
+    "priceWidget": "343.96",
+    "percentageInstallmentPaid": "0",
+    "paymentMethod": "",
+    "planStatus": "On Schedule",
+    "planID": "",
+    "remainingAmount": "19950.00",
+    "totalFunds": "50.00",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "",
+    "noOfInstallmentsToBePaid": "",
+    "redemptionDate": "15/10/2024",
+    "checkoutCurrency": "AUD",
+    "currencySymbol": "$",
+    "message": "",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Managed",
+    "checkoutType": "customer-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "selectedInstalmentType": "Monthly",
+    "Weekly": {
+      "totalNoOfInstallments": "59",
+      "numberOfInstalment": "58",
+      "instalmentDate": 7,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "343.96"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "30",
+      "numberOfInstalment": "29",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "687.93"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "14",
+      "numberOfInstalment": "13",
+      "instalmentDate": 7,
+      "option": "deselected",
+      "status": "Not available",
+      "instalmentAmount": "1534.61"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "defaultMinDeposit",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "50.00",
+    "MaxDepositAmount": "1000.00",
+    "depositPaid": "50.00",
+    "depositExcludingRemainder": "50.00",
+    "evenInstalmentAmount": "",
+    "MaxDepositAmount_rounddown": "1000.00",
+    "requiredMinimumDeposit_roundup": "50.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "",
+    "planPayFeesSoFar": "",
+    "merchantRevenue": "",
+    "TotalServiceFeesExcGST": "",
+    "ServiceFeesExcGSTonPaid": "",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Enad Hotels",
+    "merchantId": "62972bbf7919",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["20000.00"],
+    "producItem": "Holiday",
+    "items": [
+      { "description": "Holiday", "redemptionDate": "15/October/2024" }
+    ],
+    "poilcyType": ""
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "true",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["Holiday"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation6659@mailinator.com",
+    "firstName": "planpaytesting_firstNameqamF",
+    "lastName": "planpaytesting_lastNameDQmt",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "07/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [],
+  "paidPayments": [],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "Enad Hotels",
+    "operationType": "",
+    "screen": "CheckoutWidget"
+  }
+}

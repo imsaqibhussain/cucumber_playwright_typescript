@@ -1,0 +1,191 @@
+{
+  "merchant": {
+    "id": "796y21ttw000",
+    "name": "Leinad Hotels",
+    "companyEmail": "leinadHotels@yopmail.com",
+    "phoneNumber": "+6111 1111 1111",
+    "merchantSupportEmail": "planpaymerchantsupport_leinadHotels@planpay.testinator.com",
+    "customerSupportEmail": "planpaycustomersupport_leinadHotels@planpay.testinator.com",
+    "merchantPageUrl": "https://leinadHotels.example.com/",
+    "billingAddressId": "9c8mbsyhl6ap",
+    "defaultPaymentDeadlineInDays": 30,
+    "serviceFeePercentage": "5",
+    "createdAt": "2023-08-03T04:14:36.000Z",
+    "updatedAt": "2023-08-03T04:14:35.553Z",
+    "defaultMinimumDepositType": "Currency",
+    "defaultMinimumDepositValue": "175",
+    "countryAlpha3Code": "AUS",
+    "status": "Active",
+    "googleAnalyticsMeasurementID": "UA-256331111-1",
+    "merchantGroupId": null,
+    "defaultMarkupFeePercentage": "15",
+    "defaultTransactionFeeIncludedSalesTax": "10",
+    "line1": "86 Weemala Avenue",
+    "line2": "",
+    "city": "Korweinguboora",
+    "state": "NSW",
+    "postcode": "3461",
+    "MerchantDefaultRefundPolicy": [],
+    "MerchantPaymentPlatform": [
+      {
+        "id": "gn62ju6rl4ta",
+        "merchantId": "796y21ttw000",
+        "paymentPlatformId": "84a26zx1086c",
+        "default": true,
+        "label": "Enterprise Adyen AUD",
+        "vendor": "Adyen",
+        "variant": "Enterprise",
+        "MerchantPaymentPlatformCurrency": [
+          {
+            "id": "721yomyxqx00",
+            "merchantPaymentPlatformId": "gn62ju6rl4ta",
+            "currencyCode": "AUD",
+            "default": true,
+            "transactionFeeCurrencyCode": "AUD",
+            "appliesFrom": null,
+            "appliesUntil": null,
+            "scope": "Domestic",
+            "createdAt": "2023-08-01T04:57:07.000Z",
+            "updatedAt": "2023-08-03T04:15:00.553Z",
+            "markupFeePercentage": "10",
+            "transactionFeeIncludedSalesTax": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "products": {
+    "merchantId": "796y21ttw000",
+    "name": "Leinad Hotels",
+    "merchantOrderId": "leinad-123-asdjajasfsdljls",
+    "paymentPlatform": [
+      {
+        "variant": "Enterprise",
+        "currencyCode": "AUD"
+      }
+    ],
+    "items": [
+      {
+        "id": "1",
+        "productName": "Superior Deluxe King Guest room 1 King",
+        "pageUrl": "https://images.unsplash.com/photo-1666913804166-7dae710dcd50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3ZvbG98ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
+        "imageUrl": "https://images.unsplash.com/photo-1666913804166-7dae710dcd50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3ZvbG98ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
+        "price": {
+          "amount": 200,
+          "currency": "AUD"
+        },
+        "sku": "SKU-2564853",
+        "depositRefundable": false,
+        "quantity": 1,
+        "shipmentDate": "2024-02-03T04:48:05.759Z",
+        "refundPolicies": [
+          {
+            "id": "101",
+            "refundablePercentage": 100,
+            "daysWithinRedemptionDate": 50,
+            "type": "percentage_refundable_days_within_redemption_date"
+          },
+          {
+            "id": "102",
+            "refundablePercentage": 70,
+            "daysWithinRedemptionDate": 20,
+            "type": "percentage_refundable_days_within_redemption_date"
+          },
+          {
+            "id": "103",
+            "refundablePercentage": 50,
+            "daysWithinRedemptionDate": 10,
+            "type": "percentage_refundable_days_within_redemption_date"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "productName": "Superior Deluxe Twin Guest room 2 Twin/Single Bed(s)",
+        "pageUrl": "https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+        "imageUrl": "https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+        "price": {
+          "amount": 500,
+          "currency": "AUD"
+        },
+        "sku": "SKU-9250513",
+        "quantity": 1,
+        "shipmentDate": "2024-02-03T04:48:05.759Z",
+        "paymentDeadline": 30,
+        "depositRefundable": true,
+        "refundPolicies": [
+          {
+            "id": "101",
+            "refundablePercentage": 100,
+            "daysWithinRedemptionDate": 50,
+            "type": "percentage_refundable_days_within_redemption_date"
+          },
+          {
+            "id": "102",
+            "refundablePercentage": 70,
+            "daysWithinRedemptionDate": 20,
+            "type": "percentage_refundable_days_within_redemption_date"
+          },
+          {
+            "id": "103",
+            "refundablePercentage": 50,
+            "daysWithinRedemptionDate": 10,
+            "type": "percentage_refundable_days_within_redemption_date"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "productName": "Superior Studio Twin Larger Guest room 2 Double",
+        "pageUrl": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+        "imageUrl": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+        "price": {
+          "amount": 1000,
+          "currency": "AUD"
+        },
+        "sku": "SKU-6723570",
+        "quantity": 1,
+        "shipmentDate": "2024-02-03T04:48:05.759Z",
+        "paymentDeadline": 0,
+        "depositRefundable": true
+      },
+      {
+        "id": "4",
+        "productName": "Club King Club lounge access Guest room 1 King",
+        "pageUrl": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+        "imageUrl": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+        "price": {
+          "amount": 1500,
+          "currency": "AUD"
+        },
+        "sku": "SKU-8129803",
+        "quantity": 1,
+        "shipmentDate": "2024-02-03T04:48:05.759Z",
+        "paymentDeadline": 45,
+        "depositRefundable": true
+      },
+      {
+        "id": "5",
+        "productName": "Presidential Suite Club lounge access High floor",
+        "pageUrl": "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+        "imageUrl": "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+        "price": {
+          "amount": 2000,
+          "currency": "AUD"
+        },
+        "sku": "SKU-3622103",
+        "quantity": 1,
+        "shipmentDate": "2024-02-03T04:48:05.759Z",
+        "paymentDeadline": 60,
+        "depositRefundable": false
+      }
+    ],
+    "itemArray": [
+      "Superior Deluxe King Guest room 1 King",
+      "Superior Deluxe Twin Guest room 2 Twin/Single Bed(s)",
+      "Superior Studio Twin Larger Guest room 2 Double",
+      "Club King Club lounge access Guest room 1 King",
+      "Presidential Suite Club lounge access High floor"
+    ]
+  }
+}

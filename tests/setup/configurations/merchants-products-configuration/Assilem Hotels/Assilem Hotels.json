@@ -1,0 +1,119 @@
+{
+  "merchant": {
+    "id": "u2bxn7leqclv",
+    "name": "Assilem Hotels",
+    "companyEmail": "assilemHotels@yopmail.com",
+    "phoneNumber": "+6111 1111 1111",
+    "merchantSupportEmail": "planpaymerchantsupport_assilemHotels@planpay.testinator.com",
+    "customerSupportEmail": "planpaycustomersupport_assilemHotels@planpay.testinator.com",
+    "merchantPageUrl": "https://assilemHotels.example.com/",
+    "billingAddressId": "rvkvc9z04vjc",
+    "defaultPaymentDeadlineInDays": 30,
+    "serviceFeePercentage": "5",
+    "createdAt": "2023-06-09T13:04:12.000Z",
+    "updatedAt": "2023-06-09T13:04:11.759Z",
+    "defaultMinimumDepositType": "Currency",
+    "defaultMinimumDepositValue": "150",
+    "countryAlpha3Code": "USA",
+    "status": "Active",
+    "googleAnalyticsMeasurementID": "UA-256331111-1",
+    "merchantGroupId": "456efgh78ij9",
+    "line1": "132, My Street",
+    "line2": "",
+    "city": "Kingston",
+    "state": "NY",
+    "postcode": "12401",
+    "MerchantDefaultRefundPolicy": [
+      {
+        "merchantId": "u2bxn7leqclv",
+        "refundPolicyId": "630880668rp7",
+        "type": "percentage_refundable_days_within_redemption_date",
+        "daysWithinRedemptionDate": 60,
+        "refundablePercentage": "40"
+      },
+      {
+        "merchantId": "u2bxn7leqclv",
+        "refundPolicyId": "630880668rp8",
+        "type": "percentage_refundable_days_within_redemption_date",
+        "daysWithinRedemptionDate": 30,
+        "refundablePercentage": "30"
+      },
+      {
+        "merchantId": "u2bxn7leqclv",
+        "refundPolicyId": "630880668rp9",
+        "type": "percentage_refundable_days_within_redemption_date",
+        "daysWithinRedemptionDate": 15,
+        "refundablePercentage": "20"
+      }
+    ],
+    "MerchantPaymentPlatform": [
+      {
+        "id": "ag17div3twmh",
+        "merchantId": "u2bxn7leqclv",
+        "paymentPlatformId": "vjon5bo2qa9a",
+        "default": true,
+        "label": "Managed Stripe USD",
+        "vendor": "Stripe",
+        "variant": "Managed",
+        "MerchantPaymentPlatformCurrency": [
+          {
+            "id": "20pg5j24zll5",
+            "merchantPaymentPlatformId": "ag17div3twmh",
+            "currencyCode": "USD",
+            "default": true,
+            "transactionFeeCurrencyCode": "USD",
+            "appliesFrom": null,
+            "appliesUntil": null,
+            "scope": "Domestic",
+            "createdAt": "2023-04-21T03:42:06.000Z",
+            "updatedAt": "2023-06-09T13:04:33.860Z",
+            "markupFeePercentage": "15",
+            "transactionFeeIncludedSalesTax": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "products": {
+    "merchantId": "u2bxn7leqclv",
+    "name": "Assilem Hotels",
+    "merchantOrderId": "arcfpnc-123-abcsdha9gck65e5",
+    "paymentPlatform": [{ "variant": "Managed", "currencyCode": "USD" }],
+    "items": [
+      {
+        "id": "1",
+        "productName": "Holiday",
+        "sku": "6789",
+        "pageUrl": "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1036&q=80",
+        "imageUrl": "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1036&q=80",
+        "price": { "amount": 20000, "currency": "AUD" },
+        "quantity": 1,
+        "shipmentDate": "2023-12-13T03:06:24.999Z",
+        "minimumDepositPerItem": { "unit": "Currency", "value": 50 },
+        "paymentDeadline": 25,
+        "refundPolicies": [
+          {
+            "id": "301",
+            "refundablePercentage": 100,
+            "daysWithinRedemptionDate": 100,
+            "type": "percentage_refundable_days_within_redemption_date"
+          },
+          {
+            "id": "302",
+            "refundablePercentage": 70,
+            "daysWithinRedemptionDate": 50,
+            "type": "percentage_refundable_days_within_redemption_date"
+          },
+          {
+            "id": "303",
+            "refundablePercentage": 50,
+            "daysWithinRedemptionDate": 30,
+            "type": "percentage_refundable_days_within_redemption_date"
+          }
+        ],
+        "depositRefundable": false
+      }
+    ],
+    "itemArray": ["Holiday"]
+  }
+}

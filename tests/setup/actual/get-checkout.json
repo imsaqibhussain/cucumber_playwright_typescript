@@ -1,0 +1,51 @@
+{
+  "id": "u64suxd8knyg",
+  "created": "2023-01-25T10:41:44.694Z",
+  "merchantId": "630880668a41",
+  "merchantOrderId": "yrcmpny-123-abcsdha9gck65e5",
+  "currencyCode": "AUD",
+  "expiry": "2023-01-26T10:41:45.000Z",
+  "redirectURL": "https://merchant-testing.dev.nonprod.planpay.com/merchant/merchant-checkout-outcome?planpay_merchant_id=630880668a41#pp-test-hash",
+  "timeZone": null,
+  "createdAt": "2023-01-25T10:41:45.000Z",
+  "updatedAt": "2023-01-25T10:41:44.693Z",
+  "items": [
+    {
+      "id": "3pftpz0l0jt8",
+      "sku": "WD2134",
+      "merchantProductURL": "https://i.pinimg.com/originals/2c/55/81/2c5581cce9ea9e060ba7b2dd064a07f4.jpg",
+      "quantity": 2,
+      "description": "Wedding dress",
+      "costPerItem": "50",
+      "depositRefundable": true,
+      "redemptionDate": "2023-12-18T00:00:00.000Z",
+      "paymentDeadline": 0,
+      "checkoutId": "u64suxd8knyg",
+      "createdAt": "2023-01-25T10:41:45.000Z",
+      "updatedAt": "2023-01-25T10:41:44.694Z",
+      "minimumDepositPerItem": {
+        "unit": "Currency",
+        "value": "20"
+      }
+    },
+    {
+      "id": "ni2ccq4oo9b8",
+      "sku": "WV1234",
+      "merchantProductURL": "https://cdn.tgdd.vn/Products/Images/44/270831/lenovo-ideapad-3-15itl6-i5-82h801p9vn-thumb-600x600.jpg",
+      "quantity": 2,
+      "description": "Wedding veil",
+      "costPerItem": "500",
+      "depositRefundable": false,
+      "redemptionDate": "2023-12-18T00:00:00.000Z",
+      "paymentDeadline": 0,
+      "checkoutId": "u64suxd8knyg",
+      "createdAt": "2023-01-25T10:41:45.000Z",
+      "updatedAt": "2023-01-25T10:41:44.694Z",
+      "minimumDepositPerItem": {
+        "unit": "Currency",
+        "value": "120"
+      }
+    }
+  ],
+  "plan": null
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "currencyCode": "USD",
+    "label": "United States of America dollars",
+    "currencySymbol": "$",
+    "format": "UnitedStatesAmericaCurrencyFormatter",
+    "createdAt": "2023-03-26T18:41:03.000Z",
+    "updatedAt": "2023-03-26T18:43:06.558Z",
+    "minimumPaymentAmount": 10,
+    "maximumPaymentAmount": 1000
+  }
+]

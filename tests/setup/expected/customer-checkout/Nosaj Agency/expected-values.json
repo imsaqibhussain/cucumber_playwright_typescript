@@ -1,0 +1,195 @@
+{
+  "planSummary": {
+    "completionDate": "05/11/2023",
+    "planDate": "18/08/2023",
+    "lastPaymentDate": "31/10/2023",
+    "paymentsFrom": "18/08/2023",
+    "totalCost": "20000.00",
+    "installmentPeriod": "Monthly",
+    "InstallmentDay": "31",
+    "totalNoOfInstallments": "4",
+    "numberOfInstalment": "3",
+    "installmentAmount": "16.66",
+    "priceWidget": "1813.63",
+    "percentageInstallmentPaid": "100",
+    "paymentMethod": "4444",
+    "planStatus": "On Schedule",
+    "planID": "gbgow6w1corb",
+    "remainingAmount": "49.98",
+    "totalFunds": "19950.02",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.02",
+    "noOfInstallmentsToBePaid": "3",
+    "redemptionDate": "30/11/2023",
+    "checkoutCurrency": "GBP",
+    "currencySymbol": "£",
+    "message": "successful",
+    "paymentPlatform_vendor": "Braintree",
+    "paymentPlatform_variant": "Enterprise",
+    "checkoutType": "customer-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "selectedInstallmentPeriod": "Monthly",
+    "selectedInstalmentType": "Fortnightly",
+    "Weekly": {
+      "totalNoOfInstallments": "6",
+      "numberOfInstalment": "5",
+      "instalmentDate": 7,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "10.00"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "6",
+      "numberOfInstalment": "5",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "10.00"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "4",
+      "numberOfInstalment": "3",
+      "instalmentDate": 31,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "16.66"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "max",
+    "depositSetting": "max",
+    "requiredMinimumDeposit": "50.00",
+    "MaxDepositAmount": "19990",
+    "depositPaid": "19950.02",
+    "depositExcludingRemainder": "19950.00",
+    "evenInstalmentAmount": "1666.66",
+    "MaxDepositAmount_rounddown": "19950.00",
+    "requiredMinimumDeposit_roundup": "50.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "0.00",
+    "planPayFeesSoFar": "997.50",
+    "merchantRevenue": "18952.52",
+    "TotalServiceFeesExcGST": "1000",
+    "ServiceFeesExcGSTonPaid": "997.5",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Nosaj Agency",
+    "merchantId": "apgit66vzosi",
+    "sub_merchantName": "Nosaj Agency",
+    "sub_merchantId": "789abcd01ef2",
+    "checkoutCategory": "submerchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "18/08/2023",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "50.00",
+    "reason": "",
+    "totalRefundableAmount": "19950.00"
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["20000.00"],
+    "producItem": "Holiday",
+    "items": [
+      { "description": "Holiday", "redemptionDate": "30/November/2023" }
+    ],
+    "poilcyType": ""
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false",
+    "latePayment": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["Holiday"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation4670@mailinator.com",
+    "firstName": "planpaytesting_firstNameNGJk",
+    "lastName": "planpaytesting_lastNameYXap",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "18/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "16.66",
+      "date": "31/08/2023",
+      "instalment": "2/4",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "16.66",
+      "date": "30/09/2023",
+      "instalment": "3/4",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "16.66",
+      "date": "31/10/2023",
+      "instalment": "4/4",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "19950.02",
+      "date": "18/08/2023",
+      "actualPaidDate": "18/08/2023",
+      "instalment": "1/4",
+      "paymentMethodUsed": "4444",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.02",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "19950.02",
+          "amountRefunded": "0.00"
+        }
+      },
+      "paymentGatewayFee": 0,
+      "MerchantTransactionFee": 0,
+      "paymentGatewayFeeExcludedSalesTax": 0,
+      "serviceFee": 997.5
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "Nosaj Agency",
+    "operationType": "",
+    "installmentType": "Monthly",
+    "screen": "CheckoutSummary"
+  }
+}

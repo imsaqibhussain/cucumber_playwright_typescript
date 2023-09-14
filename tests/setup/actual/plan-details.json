@@ -1,0 +1,20 @@
+[
+  {
+    "id": "33pvbyzsuzxp",
+    "merchantId": "62972bbf7919",
+    "userId": "svyg0acetd0r",
+    "currencyCode": "AUD",
+    "status": "OnSchedule",
+    "pausePaymentUntil": null,
+    "installmentFrequency": "Weekly",
+    "cadenceOnDayOfMonth": null,
+    "cadenceOnDayOfWeek": "Friday",
+    "timeZone": "Australia/Sydney",
+    "serviceFeePercentage": 5,
+    "createdAt": "2023-01-12T23:16:52.000Z",
+    "updatedAt": "2023-01-12T23:37:19.240Z",
+    "userPaymentMethodId": "fggfid0tix19",
+    "effectiveDate": "2023-03-12T18:01:01.000Z",
+    "checkoutId": "gf23co40dqwt"
+  }
+]

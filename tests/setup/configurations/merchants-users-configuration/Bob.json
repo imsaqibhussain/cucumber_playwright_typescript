@@ -1,0 +1,11 @@
+{
+  "user": {
+    "id": "d0ee0aea1c68",
+    "emailAddress": "bob@planpay.com.au",
+    "firstName": "Bob",
+    "lastName": "Baker",
+    "phoneNumber": "+6111 1111 1111",
+    "createdDate": "2022-12-15T09:10:18.000Z",
+    "stripeId": "asd"
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "planSummary": {
+    "completionDate": "16/12/2023",
+    "planDate": "04/09/2023",
+    "effectiveDate": "04/09/2023",
+    "lastPaymentDate": "15/12/2023",
+    "paymentsFrom": "06/10/2023",
+    "paymentMode": "",
+    "totalCost": "4000.34",
+    "installmentPeriod": "Weekly",
+    "InstallmentDay": "Friday",
+    "totalNoOfInstallments": "13",
+    "numberOfInstalment": "10",
+    "installmentAmount": "266.68",
+    "priceWidget": "",
+    "percentageInstallmentPaid": "7",
+    "paymentMethod": "4242",
+    "planStatus": "On Schedule",
+    "planID": "dw5okrueguxp",
+    "remainingAmount": "2666.80",
+    "totalFunds": "1333.54",
+    "noOfInstallmentsPaid": "3",
+    "Remainder": "0.14",
+    "noOfInstallmentsToBePaid": "10",
+    "redemptionDate": "15/01/2024",
+    "checkoutCurrency": "AUD",
+    "currencySymbol": "$",
+    "message": "",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Managed",
+    "checkoutType": "assisted-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "selectedInstallmentPeriod": "Weekly",
+    "selectedInstalmentType": "Monthly",
+    "Weekly": {
+      "totalNoOfInstallments": "15",
+      "numberOfInstalment": "14",
+      "instalmentDate": 7,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "266.68"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "8",
+      "numberOfInstalment": "7",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "500.04"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "4",
+      "numberOfInstalment": "3",
+      "instalmentDate": 4,
+      "option": "deselected",
+      "status": "Not available",
+      "instalmentAmount": "1000.08"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "evenInstalmentAmount",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "150.00",
+    "MaxDepositAmount": "1000.00",
+    "depositPaid": "266.82",
+    "depositExcludingRemainder": "266.68",
+    "evenInstalmentAmount": "266.68",
+    "MaxDepositAmount_rounddown": "1000.00",
+    "requiredMinimumDeposit_roundup": "150.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "41.37",
+    "planPayFeesSoFar": "108.05",
+    "merchantRevenue": "1225.49",
+    "TotalServiceFeesExcGST": "200.02",
+    "ServiceFeesExcGSTonPaid": "66.68",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Enad Hotels",
+    "merchantId": "62972bbf7919",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["4000.34"],
+    "producItem": "Agequ",
+    "items": [
+      {
+        "description": "Agequ",
+        "redemptionDate": "15/January/2024",
+        "daysFromCancellationtoRedemtion": "133",
+        "depositAmount": "150.00",
+        "depositRefundable": "true",
+        "nonRefundableDeposit": "0.00",
+        "effectiveFinalNonRefundableAmountItem": "0.00",
+        "itemRefundableAmount": "4000.34",
+        "howThisIsCalculated": [
+          { "milestoneDate1": "15 Jan 2024", "nonRefundableAmount1": "0.00" }
+        ]
+      }
+    ],
+    "poilcyType": "Standard"
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false",
+    "latePayment": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": "",
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation8639@mailinator.com",
+    "firstName": "planpaytesting_firstNamemaEj",
+    "lastName": "planpaytesting_lastNamePoIn",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "04/09/2023",
+    "userId": "o3trke4hedw8"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "266.68",
+      "date": "13/10/2023",
+      "instalment": "4/13",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "266.68",
+      "date": "20/10/2023",
+      "instalment": "5/13",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "266.68",
+      "date": "27/10/2023",
+      "instalment": "6/13",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "266.68",
+      "date": "03/11/2023",
+      "instalment": "7/13",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "266.68",
+      "date": "10/11/2023",
+      "instalment": "8/13",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "266.68",
+      "date": "17/11/2023",
+      "instalment": "9/13",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "266.68",
+      "date": "24/11/2023",
+      "instalment": "10/13",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "266.68",
+      "date": "01/12/2023",
+      "instalment": "11/13",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "266.68",
+      "date": "08/12/2023",
+      "instalment": "12/13",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "266.68",
+      "date": "15/12/2023",
+      "instalment": "13/13",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "266.82",
+      "date": "04/09/2023",
+      "actualPaidDate": "04/09/2023",
+      "instalment": "1/13",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.14",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "266.82",
+          "amountRefunded": "0.00"
+        }
+      },
+      "paymentGatewayFee": 8.04,
+      "MerchantTransactionFee": 8.41,
+      "paymentGatewayFeeExcludedSalesTax": 7.309090909091,
+      "serviceFee": 13.34
+    },
+    {
+      "amount": "533.36",
+      "date": "22/09/2023",
+      "actualPaidDate": "04/09/2023",
+      "instalment": "2/13",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "ADVANCE",
+      "remainder": "0.00",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "533.36",
+          "amountRefunded": "0.00"
+        }
+      },
+      "paymentGatewayFee": 15.76,
+      "MerchantTransactionFee": 16.48,
+      "paymentGatewayFeeExcludedSalesTax": 14.327272727273,
+      "serviceFee": 26.67
+    },
+    {
+      "amount": "533.36",
+      "date": "06/10/2023",
+      "actualPaidDate": "04/09/2023",
+      "instalment": "3/13",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "ADVANCE",
+      "remainder": "0.00",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "533.36",
+          "amountRefunded": "0.00"
+        }
+      },
+      "paymentGatewayFee": 15.76,
+      "MerchantTransactionFee": 16.48,
+      "paymentGatewayFeeExcludedSalesTax": 14.327272727273,
+      "serviceFee": 26.67
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "assisted-checkout",
+    "merchantName": "Enad Hotels",
+    "operationType": "",
+    "installmentType": "Weekly"
+  }
+}

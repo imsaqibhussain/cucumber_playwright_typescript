@@ -1,0 +1,72 @@
+{
+  "id": "3v8zhtfyaeg1",
+  "created": "2023-01-25",
+  "merchantId": "630880668a41",
+  "merchantOrderId": "yrcmpny-123-abcsdha9gck65e5",
+  "totalCost": 1100,
+  "totalMinimumDeposit": 320,
+  "completionDate": "2023-12-18",
+  "currencyCode": "AUD",
+  "redirectURL": "https://merchant-testing.dev.nonprod.planpay.com/merchant/merchant-checkout-outcome?planpay_merchant_id=630880668a41#pp-test-hash",
+  "callbackURL": "",
+  "items": [
+    {
+      "sku": "WD2134",
+      "merchantProductURL": "https://i.pinimg.com/originals/2c/55/81/2c5581cce9ea9e060ba7b2dd064a07f4.jpg",
+      "quantity": 2,
+      "description": "Wedding dress",
+      "costPerItem": 50,
+      "minimumDepositPerItem": { "unit": "Currency", "value": 20 },
+      "depositRefundable": true,
+      "redemptionDate": "2023-12-18",
+      "paymentDeadline": 0,
+      "refundPolicies": [
+        {
+          "type": "percentage_refundable_days_within_redemption_date",
+          "daysWithinRedemptionDate": 20,
+          "refundablePercentage": 50
+        },
+        {
+          "type": "percentage_refundable_days_within_redemption_date",
+          "daysWithinRedemptionDate": 30,
+          "refundablePercentage": 75
+        },
+        {
+          "type": "percentage_refundable_days_within_redemption_date",
+          "daysWithinRedemptionDate": 60,
+          "refundablePercentage": 100
+        }
+      ]
+    },
+    {
+      "sku": "WV1234",
+      "merchantProductURL": "https://cdn.tgdd.vn/Products/Images/44/270831/lenovo-ideapad-3-15itl6-i5-82h801p9vn-thumb-600x600.jpg",
+      "quantity": 2,
+      "description": "Wedding veil",
+      "costPerItem": 500,
+      "minimumDepositPerItem": { "unit": "Currency", "value": 120 },
+      "depositRefundable": false,
+      "redemptionDate": "2023-12-18",
+      "paymentDeadline": 0,
+      "refundPolicies": [
+        {
+          "type": "percentage_refundable_days_within_redemption_date",
+          "daysWithinRedemptionDate": 30,
+          "refundablePercentage": 80
+        },
+        {
+          "type": "percentage_refundable_days_within_redemption_date",
+          "daysWithinRedemptionDate": 10,
+          "refundablePercentage": 50
+        }
+      ]
+    }
+  ],
+  "checkoutWorkflow": {
+    "sdkWidget": {
+      "type": "js-sdk-widget",
+      "id": "js-sdk-widget-v2",
+      "scriptUrl": "https://sdk-app.dev.nonprod.planpay.com/planpay-sdk.js"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "merchant": {
+    "id": "ffue5jqyrctz",
+    "name": "QT Hotels",
+    "companyEmail": "qtHotels@yopmail.com",
+    "phoneNumber": "+6111 1111 1111",
+    "merchantSupportEmail": "planpaymerchantsupport_qtHotels@planpay.testinator.com",
+    "customerSupportEmail": "planpaycustomersupport_qtHotels@planpay.testinator.com",
+    "merchantPageUrl": "https://qtHotels.example.com/",
+    "billingAddressId": "jbqrmhaok3id",
+    "defaultPaymentDeadlineInDays": 30,
+    "serviceFeePercentage": 5,
+    "createdAt": "2023-04-16T23:11:19.000Z",
+    "updatedAt": "2023-04-16T23:11:18.961Z",
+    "defaultMinimumDepositType": "Currency",
+    "defaultMinimumDepositValue": 150,
+    "countryAlpha3Code": "AUS",
+    "currencyCode": "AUD",
+    "defaultRefundCurrencyCode": "AUD",
+    "status": "Active",
+    "googleAnalyticsMeasurementID": "UA-256331111-1",
+    "line1": "1 Martin Place",
+    "line2": "",
+    "city": "Sydney",
+    "state": "NSW",
+    "postcode": "2002",
+    "MerchantDefaultRefundPolicy": [],
+    "MerchantPaymentPlatform": [
+      {
+        "id": "g1iqlip1qwqf",
+        "merchantId": "ffue5jqyrctz",
+        "paymentPlatformId": "q3cbh2e5zbsk",
+        "default": true,
+        "label": "Enterprise Stripe AUD",
+        "vendor": "Stripe",
+        "variant": "Enterprise",
+        "MerchantPaymentPlatformCurrency": [
+          {
+            "id": "tulvdyjjo5wu",
+            "merchantPaymentPlatformId": "g1iqlip1qwqf",
+            "currencyCode": "AUD",
+            "default": { "type": "Buffer", "data": [1] },
+            "transactionFeeCurrencyCode": "AUD",
+            "appliesFrom": null,
+            "appliesUntil": null,
+            "scope": "Domestic",
+            "createdAt": "2023-04-16T23:11:25.000Z",
+            "updatedAt": "2023-04-16T23:11:24.868Z",
+            "markupFeePercentage": 15,
+            "transactionFeeIncludedSalesTax": 10
+          }
+        ]
+      }
+    ]
+  },
+  "products": {
+    "merchantId": "ffue5jqyrctz",
+    "name": "QT Hotels",
+    "merchantOrderId": "arcfpnc-123-abcsdha9gck65e5",
+    "authorizationSecretValue": "2wk9kHdPAF9pUBJjEoHA7c9E7JXGN1bgAc9kcykreUceGQerCP",
+    "currencyCode": ["AUD"],
+    "items": [
+      {
+        "sku": "QTH-King-123",
+        "description": "QT King",
+        "costPerItem": 429,
+        "merchantProductURL": "https://cdn.qthotels.com/wp-content/uploads/sites/91/2015/09/16102011/1217-QT-Sydney-20191127.jpg",
+        "depositRefundable": true,
+        "paymentDeadline": 30,
+        "minimumDepositPerItem": { "unit": "Currency", "value": 5 }
+      },
+      {
+        "sku": "QTH-CS-456",
+        "description": "QT Corner Suite",
+        "costPerItem": 729,
+        "merchantProductURL": "https://cdn.qthotels.com/wp-content/uploads/sites/91/2019/12/16102027/0085-QT-Sydney-20191127.jpg",
+        "depositRefundable": false,
+        "paymentDeadline": 0,
+        "minimumDepositPerItem": { "unit": "Currency", "value": 250 }
+      }
+    ],
+    "itemArray": ["QT King", "QT Corner Suite"]
+  }
+}

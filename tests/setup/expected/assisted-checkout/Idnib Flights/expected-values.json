@@ -1,0 +1,248 @@
+{
+  "planSummary": {
+    "completionDate": "29/09/2023",
+    "planDate": "18/05/2023",
+    "lastPaymentDate": "28/09/2023",
+    "totalCost": "20000.00",
+    "installmentPeriod": "Weekly",
+    "totalNoOfInstallments": "20",
+    "numberOfInstalment": "19",
+    "installmentAmount": "982.42",
+    "priceWidget": "1000.00",
+    "percentageInstallmentPaid": "7",
+    "paymentMethod": "1111",
+    "planStatus": "On Schedule",
+    "planID": "g4ysebhdzfaw",
+    "remainingAmount": "18665.98",
+    "totalFunds": "1334.02",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.02",
+    "noOfInstallmentsToBePaid": "19",
+    "redemptionDate": "24/10/2023",
+    "checkoutCurrency": "AUD",
+    "message": "successful",
+    "paymentPlatform_vendor": "Braintree",
+    "paymentPlatform_variant": "Enterprise",
+    "PaymentEligible": "false",
+    "checkoutType": "customer-checkout"
+  },
+  "depositSettings": {
+    "depositRuleApplied": "random",
+    "depositSetting": "random",
+    "requiredMinimumDeposit": "50.00",
+    "MaxDepositAmount": "19990",
+    "depositPaid": "1334.02",
+    "depositExcludingRemainder": "1334.00",
+    "evenInstalmentAmount": "1000.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "",
+    "planPayFeesSoFar": "",
+    "merchantRevenue": "",
+    "TotalServiceFeesExcGST": "1000",
+    "ServiceFeesExcGSTonPaid": "66.7"
+  },
+  "merchantDetails": {
+    "merchantName": "Ideyas Hotels",
+    "merchantId": "apgit66vzosi",
+    "sub_merchantName": "Idnib Flights",
+    "sub_merchantId": "123bbbb45bb6",
+    "checkoutCategory": "submerchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "daysFromCancellationtoRedemtion": "19",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "0.00",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["20000.00"],
+    "producItem": "Holiday",
+    "items": [
+      { "description": "Holiday", "redemptionDate": "24/October/2023" },
+      { "description": "Holiday", "redemptionDate": "31/October/2023" },
+      { "description": "Holiday", "redemptionDate": "24/October/2023" }
+    ]
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["Holiday"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation0790@mailinator.com",
+    "firstName": "planpaytesting_firstNameVPuJ",
+    "lastName": "planpaytesting_lastNameujtA",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "982.42",
+      "date": "25/05/2023",
+      "instalment": "2/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "01/06/2023",
+      "instalment": "3/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "08/06/2023",
+      "instalment": "4/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "15/06/2023",
+      "instalment": "5/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "22/06/2023",
+      "instalment": "6/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "29/06/2023",
+      "instalment": "7/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "06/07/2023",
+      "instalment": "8/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "13/07/2023",
+      "instalment": "9/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "20/07/2023",
+      "instalment": "10/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "27/07/2023",
+      "instalment": "11/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "03/08/2023",
+      "instalment": "12/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "10/08/2023",
+      "instalment": "13/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "17/08/2023",
+      "instalment": "14/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "24/08/2023",
+      "instalment": "15/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "31/08/2023",
+      "instalment": "16/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "07/09/2023",
+      "instalment": "17/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "14/09/2023",
+      "instalment": "18/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "21/09/2023",
+      "instalment": "19/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "982.42",
+      "date": "28/09/2023",
+      "instalment": "20/20",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "1334.02",
+      "date": "18/05/2023",
+      "instalment": "1/20",
+      "paymentMethodUsed": "1111",
+      "status": "Paid",
+      "paymentType": "DUETIME"
+    }
+  ],
+  "latePayments": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "Idnib Flights"
+  }
+}

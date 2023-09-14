@@ -1,0 +1,252 @@
+{
+  "planSummary": {
+    "completionDate": "01/11/2023",
+    "planDate": "23/08/2023",
+    "effectiveDate": "30/09/2023",
+    "lastPaymentDate": "30/10/2023",
+    "paymentsFrom": "30/09/2023",
+    "totalCost": "2200.00",
+    "installmentPeriod": "Monthly",
+    "InstallmentDay": "30",
+    "totalNoOfInstallments": "4",
+    "numberOfInstalment": "1",
+    "installmentAmount": "533.33",
+    "priceWidget": "165.00",
+    "percentageInstallmentPaid": "76",
+    "paymentMethod": "0005",
+    "planStatus": "On Schedule",
+    "planID": "fgnr7h9c0nss",
+    "remainingAmount": "533.33",
+    "totalFunds": "1666.67",
+    "noOfInstallmentsPaid": "3",
+    "Remainder": "0.01",
+    "noOfInstallmentsToBePaid": "1",
+    "redemptionDate": "01/12/2023",
+    "checkoutCurrency": "AUD",
+    "currencySymbol": "$",
+    "message": "successful",
+    "paymentPlatform_vendor": "Adyen",
+    "paymentPlatform_variant": "Enterprise",
+    "checkoutType": "customer-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "selectedInstallmentPeriod": "Weekly",
+    "selectedInstalmentType": "Monthly",
+    "Weekly": {
+      "totalNoOfInstallments": "11",
+      "numberOfInstalment": "10",
+      "instalmentDate": 7,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "85.00"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "6",
+      "numberOfInstalment": "5",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "170.00"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "4",
+      "numberOfInstalment": "3",
+      "instalmentDate": 30,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "533.33"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "random",
+    "depositSetting": "random",
+    "requiredMinimumDeposit": "525.00",
+    "MaxDepositAmount": "2190",
+    "depositPaid": "600.01",
+    "depositExcludingRemainder": "600.00",
+    "evenInstalmentAmount": "200.00",
+    "MaxDepositAmount_rounddown": "2150.00",
+    "requiredMinimumDeposit_roundup": "550.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "0.00",
+    "planPayFeesSoFar": "83.34",
+    "merchantRevenue": "1583.33",
+    "TotalServiceFeesExcGST": "110",
+    "ServiceFeesExcGSTonPaid": "83.34",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Leinad Hotels",
+    "merchantId": "796y21ttw000",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1", "2"],
+    "productsAmount": ["200.00", "1000.00"],
+    "producItem": "Superior Deluxe King Guest room 1 King$Superior Studio Twin Larger Guest room 2 Double",
+    "items": [
+      {
+        "description": "Superior Deluxe King Guest room 1 King",
+        "redemptionDate": "1/December/2023",
+        "daysFromCancellationtoRedemtion": "100",
+        "depositAmount": "175.00",
+        "depositRefundable": "false",
+        "nonRefundableDeposit": "175.00",
+        "effectiveFinalNonRefundableAmountItem": "175.00",
+        "itemRefundableAmount": "25.00",
+        "howThisIsCalculated": [
+          { "milestoneDate1": "12 Oct 2023", "nonRefundableAmount1": "0.00" },
+          { "milestoneDate2": "11 Nov 2023", "nonRefundableAmount2": "60.00" },
+          { "milestoneDate3": "21 Nov 2023", "nonRefundableAmount3": "100.00" }
+        ]
+      },
+      {
+        "description": "Superior Studio Twin Larger Guest room 2 Double",
+        "redemptionDate": "1/November/2024",
+        "daysFromCancellationtoRedemtion": "436",
+        "depositAmount": "350.00",
+        "depositRefundable": "true",
+        "nonRefundableDeposit": "0.00",
+        "effectiveFinalNonRefundableAmountItem": "0.00",
+        "itemRefundableAmount": "1000.00",
+        "howThisIsCalculated": [
+          { "milestoneDate1": "01 Nov 2024", "nonRefundableAmount1": "0.00" }
+        ]
+      }
+    ],
+    "poilcyType": ""
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false",
+    "latePayment": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": [
+      "Superior Deluxe King Guest room 1 King",
+      "Superior Deluxe Twin Guest room 2 Twin/Single Bed(s)",
+      "Superior Studio Twin Larger Guest room 2 Double",
+      "Club King Club lounge access Guest room 1 King",
+      "Presidential Suite Club lounge access High floor"
+    ],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation0096@mailinator.com",
+    "firstName": "planpaytesting_firstNameCOrq",
+    "lastName": "planpaytesting_lastNameHDCG",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "23/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "533.33",
+      "date": "30/10/2023",
+      "instalment": "4/4",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "600.01",
+      "date": "23/08/2023",
+      "actualPaidDate": "23/08/2023",
+      "instalment": "1/4",
+      "paymentMethodUsed": "0005",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.01",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "600.01",
+          "amountRefunded": "0.00"
+        }
+      },
+      "paymentGatewayFee": 0,
+      "MerchantTransactionFee": 0,
+      "paymentGatewayFeeExcludedSalesTax": 0,
+      "serviceFee": 30
+    },
+    {
+      "amount": "533.33",
+      "date": "30/08/2023",
+      "instalment": "2/4",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.00",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "533.33",
+          "amountRefunded": "0.00"
+        }
+      },
+      "paymentMethodUsed": "0005",
+      "actualPaidDate": "30/08/2023",
+      "paymentGatewayFee": 0,
+      "MerchantTransactionFee": 0,
+      "paymentGatewayFeeExcludedSalesTax": 0,
+      "serviceFee": 26.67
+    },
+    {
+      "amount": "533.33",
+      "date": "30/09/2023",
+      "instalment": "3/4",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.00",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "533.33",
+          "amountRefunded": "0.00"
+        }
+      },
+      "paymentMethodUsed": "0005",
+      "actualPaidDate": "30/09/2023",
+      "paymentGatewayFee": 0,
+      "MerchantTransactionFee": 0,
+      "paymentGatewayFeeExcludedSalesTax": 0,
+      "serviceFee": 26.67
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "Leinad Hotels",
+    "operationType": "",
+    "installmentType": "Monthly",
+    "screen": "CheckoutSummary"
+  }
+}

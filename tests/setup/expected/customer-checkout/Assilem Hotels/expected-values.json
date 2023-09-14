@@ -1,0 +1,256 @@
+{
+  "planSummary": {
+    "completionDate": "11/10/2023",
+    "planDate": "09/05/2023",
+    "lastPaymentDate": "05/10/2023",
+    "totalCost": "20000.00",
+    "installmentPeriod": "Weekly",
+    "totalNoOfInstallments": "22",
+    "numberOfInstalment": "21",
+    "installmentAmount": "909.09",
+    "priceWidget": "869.56",
+    "percentageInstallmentPaid": "5",
+    "paymentMethod": "4242",
+    "planStatus": "On Schedule",
+    "planID": "3h8zy18lcju4",
+    "remainingAmount": "19090.89",
+    "totalFunds": "909.11",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.02",
+    "noOfInstallmentsToBePaid": "21",
+    "redemptionDate": "05/11/2023",
+    "checkoutCurrency": "USD",
+    "message": "successful",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Managed",
+    "checkoutType": "customer-checkout"
+  },
+  "depositSettings": {
+    "depositRuleApplied": "evenInstalmentAmount",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "50.00",
+    "MaxDepositAmount": "1000.00",
+    "depositPaid": "909.11",
+    "depositExcludingRemainder": "909.09",
+    "evenInstalmentAmount": "909.09"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "",
+    "planPayFeesSoFar": "",
+    "merchantRevenue": "",
+    "TotalServiceFeesExcGST": "1000",
+    "TotalServiceFeesIncGST": "1100",
+    "ServiceFeesIncGSTonPaid": "50",
+    "ServiceFeesExcGSTonPaid": "45.46"
+  },
+  "merchantDetails": {
+    "merchantName": "Assilem Hotels",
+    "merchantId": "u2bxn7leqclv"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "daysFromCancellationtoRedemtion": "19",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "0.00",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["20000.00"],
+    "producItem": "Holiday",
+    "items": [{ "description": "Holiday", "redemptionDate": "5/November/2023" }]
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "true",
+    "eventProcessorError": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["Holiday"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation6855@mailinator.com",
+    "firstName": "planpaytesting_firstNametDng",
+    "lastName": "planpaytesting_lastNameiReu",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "909.09",
+      "date": "18/05/2023",
+      "instalment": "2/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "25/05/2023",
+      "instalment": "3/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "01/06/2023",
+      "instalment": "4/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "08/06/2023",
+      "instalment": "5/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "15/06/2023",
+      "instalment": "6/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "22/06/2023",
+      "instalment": "7/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "29/06/2023",
+      "instalment": "8/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "06/07/2023",
+      "instalment": "9/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "13/07/2023",
+      "instalment": "10/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "20/07/2023",
+      "instalment": "11/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "27/07/2023",
+      "instalment": "12/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "03/08/2023",
+      "instalment": "13/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "10/08/2023",
+      "instalment": "14/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "17/08/2023",
+      "instalment": "15/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "24/08/2023",
+      "instalment": "16/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "31/08/2023",
+      "instalment": "17/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "07/09/2023",
+      "instalment": "18/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "14/09/2023",
+      "instalment": "19/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "21/09/2023",
+      "instalment": "20/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "28/09/2023",
+      "instalment": "21/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "909.09",
+      "date": "05/10/2023",
+      "instalment": "22/22",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "909.11",
+      "date": "09/05/2023",
+      "instalment": "1/22",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "DUETIME"
+    }
+  ],
+  "latePayments": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "Assilem Hotels"
+  }
+}

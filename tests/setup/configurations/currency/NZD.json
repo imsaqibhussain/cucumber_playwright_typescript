@@ -1,0 +1,12 @@
+[
+  {
+    "currencyCode": "NZD",
+    "label": "New Zealand dollars",
+    "currencySymbol": "$",
+    "format": "NewZealandCurrencyFormatter",
+    "createdAt": "2023-03-26T18:41:03.000Z",
+    "updatedAt": "2023-03-26T18:43:06.559Z",
+    "minimumPaymentAmount": 10,
+    "maximumPaymentAmount": 1000
+  }
+]

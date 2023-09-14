@@ -1,0 +1,308 @@
+{
+  "planSummary": {
+    "completionDate": "08/01/2024",
+    "planDate": "25/08/2023",
+    "effectiveDate": "25/08/2023",
+    "lastPaymentDate": "03/01/2024",
+    "paymentsFrom": "25/08/2023",
+    "totalCost": "3300.00",
+    "installmentPeriod": "Weekly",
+    "InstallmentDay": "Wednesday",
+    "totalNoOfInstallments": "19",
+    "numberOfInstalment": "18",
+    "installmentAmount": "173.68",
+    "priceWidget": "",
+    "percentageInstallmentPaid": "5",
+    "paymentMethod": "4242",
+    "planStatus": "On Schedule",
+    "planID": "yk5rjozn6itt",
+    "remainingAmount": "3126.24",
+    "totalFunds": "173.76",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.08",
+    "noOfInstallmentsToBePaid": "18",
+    "redemptionDate": "15/01/2024",
+    "checkoutCurrency": "AUD",
+    "currencySymbol": "$",
+    "message": "",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Managed",
+    "checkoutType": "assisted-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "selectedInstallmentPeriod": "Weekly",
+    "selectedInstalmentType": "Monthly",
+    "Weekly": {
+      "totalNoOfInstallments": "19",
+      "numberOfInstalment": "18",
+      "instalmentDate": 7,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "173.68"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "10",
+      "numberOfInstalment": "9",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "330.00"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "5",
+      "numberOfInstalment": "4",
+      "instalmentDate": 25,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "660.00"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "evenInstalmentAmount",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "10.00",
+    "MaxDepositAmount": "1000.00",
+    "depositPaid": "173.76",
+    "depositExcludingRemainder": "173.68",
+    "evenInstalmentAmount": "173.68",
+    "MaxDepositAmount_rounddown": "1000.00",
+    "requiredMinimumDeposit_roundup": "10.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "",
+    "planPayFeesSoFar": "",
+    "merchantRevenue": "",
+    "TotalServiceFeesExcGST": "99",
+    "ServiceFeesExcGSTonPaid": "",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Ovolo Hotels",
+    "merchantId": "62bd1b7e5e8b",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["3300.00"],
+    "producItem": "hwqKG",
+    "items": [{ "description": "hwqKG", "redemptionDate": "15/January/2024" }],
+    "poilcyType": "Standard"
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false",
+    "latePayment": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": "",
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation8629@mailinator.com",
+    "firstName": "planpaytesting_firstNameEHsw",
+    "lastName": "planpaytesting_lastNameMrRI",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "25/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "173.68",
+      "date": "06/09/2023",
+      "instalment": "2/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "13/09/2023",
+      "instalment": "3/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "20/09/2023",
+      "instalment": "4/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "27/09/2023",
+      "instalment": "5/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "04/10/2023",
+      "instalment": "6/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "11/10/2023",
+      "instalment": "7/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "18/10/2023",
+      "instalment": "8/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "25/10/2023",
+      "instalment": "9/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "01/11/2023",
+      "instalment": "10/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "08/11/2023",
+      "instalment": "11/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "15/11/2023",
+      "instalment": "12/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "22/11/2023",
+      "instalment": "13/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "29/11/2023",
+      "instalment": "14/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "06/12/2023",
+      "instalment": "15/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "13/12/2023",
+      "instalment": "16/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "20/12/2023",
+      "instalment": "17/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "27/12/2023",
+      "instalment": "18/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "173.68",
+      "date": "03/01/2024",
+      "instalment": "19/19",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "173.76",
+      "date": "25/08/2023",
+      "actualPaidDate": "25/08/2023",
+      "instalment": "1/19",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.08",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "173.76",
+          "amountRefunded": "0.00"
+        }
+      }
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "assisted-checkout",
+    "merchantName": "Ovolo Hotels",
+    "operationType": "",
+    "installmentType": "Weekly"
+  }
+}

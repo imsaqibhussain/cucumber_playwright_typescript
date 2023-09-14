@@ -1,0 +1,191 @@
+{
+  "merchant": {
+    "id": "ffue5jqyrctz",
+    "name": "ROTVIC Hotels",
+    "companyEmail": "rotvicHotels@yopmail.com",
+    "phoneNumber": "+6111 1111 1111",
+    "merchantSupportEmail": "planpaymerchantsupport_rotvicHotels@planpay.testinator.com",
+    "customerSupportEmail": "planpaycustomersupport_rotvicHotels@planpay.testinator.com",
+    "merchantPageUrl": "https://rotvicHotels.example.com/",
+    "billingAddressId": "jbqrmhaok3id",
+    "defaultPaymentDeadlineInDays": 30,
+    "serviceFeePercentage": "5",
+    "createdAt": "2023-06-09T13:04:12.000Z",
+    "updatedAt": "2023-06-09T13:04:11.759Z",
+    "defaultMinimumDepositType": "Currency",
+    "defaultMinimumDepositValue": "150",
+    "countryAlpha3Code": "AUS",
+    "status": "Active",
+    "googleAnalyticsMeasurementID": "UA-256331111-1",
+    "merchantGroupId": "456efgh78ij9",
+    "line1": "1 Martin Place",
+    "line2": "",
+    "city": "Sydney",
+    "state": "NSW",
+    "postcode": "2002",
+    "MerchantDefaultRefundPolicy": [
+      {
+        "merchantId": "ffue5jqyrctz",
+        "refundPolicyId": "630880668rp7",
+        "type": "percentage_refundable_days_within_redemption_date",
+        "daysWithinRedemptionDate": 60,
+        "refundablePercentage": "40"
+      },
+      {
+        "merchantId": "ffue5jqyrctz",
+        "refundPolicyId": "630880668rp8",
+        "type": "percentage_refundable_days_within_redemption_date",
+        "daysWithinRedemptionDate": 30,
+        "refundablePercentage": "30"
+      },
+      {
+        "merchantId": "ffue5jqyrctz",
+        "refundPolicyId": "630880668rp9",
+        "type": "percentage_refundable_days_within_redemption_date",
+        "daysWithinRedemptionDate": 15,
+        "refundablePercentage": "20"
+      }
+    ],
+    "MerchantPaymentPlatform": [
+      {
+        "id": "g1iqlip1qwqf",
+        "merchantId": "ffue5jqyrctz",
+        "paymentPlatformId": "q3cbh2e5zbsk",
+        "default": true,
+        "label": "Enterprise Stripe AUD",
+        "vendor": "Stripe",
+        "variant": "Enterprise",
+        "MerchantPaymentPlatformCurrency": [
+          {
+            "id": "tulvdyjjo5wu",
+            "merchantPaymentPlatformId": "g1iqlip1qwqf",
+            "currencyCode": "AUD",
+            "default": true,
+            "transactionFeeCurrencyCode": "AUD",
+            "appliesFrom": null,
+            "appliesUntil": null,
+            "scope": "Domestic",
+            "createdAt": "2023-04-21T03:42:06.000Z",
+            "updatedAt": "2023-06-09T13:04:33.860Z",
+            "markupFeePercentage": "15",
+            "transactionFeeIncludedSalesTax": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "products": {
+    "merchantId": "ffue5jqyrctz",
+    "name": "Ideyas Hotels",
+    "merchantOrderId": "arcfpnc-123-abcsdha9gck65e5",
+    "paymentPlatform": [{ "variant": "Enterprise", "currencyCode": "AUD" }],
+    "items": [
+      {
+        "id": "1",
+        "productName": "Superior Deluxe King Guest room 1 King",
+        "pageUrl": "https://images.unsplash.com/photo-1666913804166-7dae710dcd50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3ZvbG98ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
+        "imageUrl": "https://images.unsplash.com/photo-1666913804166-7dae710dcd50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3ZvbG98ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
+        "price": { "amount": 200, "currency": "AUD" },
+        "sku": "SKU-2564853",
+        "depositRefundable": false,
+        "quantity": 1,
+        "shipmentDate": "2023-12-13T03:06:24.999Z",
+        "refundPolicies": [
+          {
+            "id": "101",
+            "refundablePercentage": 100,
+            "daysWithinRedemptionDate": 50,
+            "type": "percentage_refundable_days_within_redemption_date"
+          },
+          {
+            "id": "102",
+            "refundablePercentage": 70,
+            "daysWithinRedemptionDate": 20,
+            "type": "percentage_refundable_days_within_redemption_date"
+          },
+          {
+            "id": "103",
+            "refundablePercentage": 50,
+            "daysWithinRedemptionDate": 10,
+            "type": "percentage_refundable_days_within_redemption_date"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "productName": "Superior Deluxe Twin Guest room 2 Twin/Single Bed(s)",
+        "pageUrl": "https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+        "imageUrl": "https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+        "price": { "amount": 500, "currency": "AUD" },
+        "sku": "SKU-9250513",
+        "quantity": 1,
+        "shipmentDate": "2023-12-13T03:06:24.999Z",
+        "paymentDeadline": 30,
+        "depositRefundable": true,
+        "refundPolicies": [
+          {
+            "id": "101",
+            "refundablePercentage": 100,
+            "daysWithinRedemptionDate": 50,
+            "type": "percentage_refundable_days_within_redemption_date"
+          },
+          {
+            "id": "102",
+            "refundablePercentage": 70,
+            "daysWithinRedemptionDate": 20,
+            "type": "percentage_refundable_days_within_redemption_date"
+          },
+          {
+            "id": "103",
+            "refundablePercentage": 50,
+            "daysWithinRedemptionDate": 10,
+            "type": "percentage_refundable_days_within_redemption_date"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "productName": "Superior Studio Twin Larger Guest room 2 Double",
+        "pageUrl": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+        "imageUrl": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+        "price": { "amount": 1000, "currency": "AUD" },
+        "sku": "SKU-6723570",
+        "quantity": 1,
+        "shipmentDate": "2023-12-13T03:06:24.999Z",
+        "paymentDeadline": 0,
+        "depositRefundable": true
+      },
+      {
+        "id": "4",
+        "productName": "Club King Club lounge access Guest room 1 King",
+        "pageUrl": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+        "imageUrl": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+        "price": { "amount": 1500, "currency": "AUD" },
+        "sku": "SKU-8129803",
+        "quantity": 1,
+        "shipmentDate": "2023-12-13T03:06:24.999Z",
+        "paymentDeadline": 45,
+        "depositRefundable": true
+      },
+      {
+        "id": "5",
+        "productName": "Presidential Suite Club lounge access High floor",
+        "pageUrl": "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+        "imageUrl": "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+        "price": { "amount": 2000, "currency": "AUD" },
+        "sku": "SKU-3622103",
+        "quantity": 1,
+        "shipmentDate": "2023-12-13T03:06:24.999Z",
+        "paymentDeadline": 60,
+        "depositRefundable": false
+      }
+    ],
+    "itemArray": [
+      "Superior Deluxe King Guest room 1 King",
+      "Superior Deluxe Twin Guest room 2 Twin/Single Bed(s)",
+      "Superior Studio Twin Larger Guest room 2 Double",
+      "Club King Club lounge access Guest room 1 King",
+      "Presidential Suite Club lounge access High floor"
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "planSummary": {
+    "completionDate": "30/10/2023",
+    "planDate": "18/08/2023",
+    "lastPaymentDate": "26/10/2023",
+    "paymentsFrom": "18/08/2023",
+    "totalCost": "20000.00",
+    "installmentPeriod": "Weekly",
+    "InstallmentDay": "Thursday",
+    "totalNoOfInstallments": "10",
+    "numberOfInstalment": "9",
+    "installmentAmount": "2216.66",
+    "priceWidget": "1995.00",
+    "percentageInstallmentPaid": "0",
+    "paymentMethod": "1111",
+    "planStatus": "On Schedule",
+    "planID": "anizvs9csjk5",
+    "remainingAmount": "19949.94",
+    "totalFunds": "50.06",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.06",
+    "noOfInstallmentsToBePaid": "9",
+    "redemptionDate": "24/11/2023",
+    "checkoutCurrency": "NZD",
+    "currencySymbol": "$",
+    "message": "successful",
+    "paymentPlatform_vendor": "Braintree",
+    "paymentPlatform_variant": "Enterprise",
+    "checkoutType": "customer-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "selectedInstallmentPeriod": "Weekly",
+    "selectedInstalmentType": "Monthly",
+    "Weekly": {
+      "totalNoOfInstallments": "10",
+      "numberOfInstalment": "9",
+      "instalmentDate": 7,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "2216.66"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "6",
+      "numberOfInstalment": "5",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "3990.00"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "3",
+      "numberOfInstalment": "2",
+      "instalmentDate": 18,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "9975.00"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "defaultMinDeposit",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "50.00",
+    "MaxDepositAmount": "19990",
+    "depositPaid": "50.06",
+    "depositExcludingRemainder": "50.00",
+    "evenInstalmentAmount": "1818.18",
+    "MaxDepositAmount_rounddown": "19950.00",
+    "requiredMinimumDeposit_roundup": "50.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "0.00",
+    "planPayFeesSoFar": "2.50",
+    "merchantRevenue": "47.56",
+    "TotalServiceFeesExcGST": "1000",
+    "ServiceFeesExcGSTonPaid": "2.5",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Ideyas Hotels",
+    "merchantId": "apgit66vzosi",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["20000.00"],
+    "producItem": "Holiday",
+    "items": [
+      {
+        "description": "Holiday",
+        "redemptionDate": "24/November/2023",
+        "daysFromCancellationtoRedemtion": "98",
+        "depositAmount": "50.00",
+        "depositRefundable": "false",
+        "nonRefundableDeposit": "50.00",
+        "effectiveFinalNonRefundableAmountItem": "50.00",
+        "effectivePolicyPercentage": "100",
+        "effectivePolicyDays": "100",
+        "itemRefundableAmount": "19950.00",
+        "howThisIsCalculated": [
+          { "milestoneDate1": "16 Aug 2023", "nonRefundableAmount1": "0.00" },
+          {
+            "milestoneDate2": "05 Oct 2023",
+            "nonRefundableAmount2": "6000.00"
+          },
+          {
+            "milestoneDate3": "25 Oct 2023",
+            "nonRefundableAmount3": "10000.00"
+          }
+        ]
+      }
+    ],
+    "poilcyType": ""
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false",
+    "latePayment": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["Holiday"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation6892@mailinator.com",
+    "firstName": "planpaytesting_firstNameDbmY",
+    "lastName": "planpaytesting_lastNameJnZW",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "18/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "2216.66",
+      "date": "31/08/2023",
+      "instalment": "2/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "2216.66",
+      "date": "07/09/2023",
+      "instalment": "3/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "2216.66",
+      "date": "14/09/2023",
+      "instalment": "4/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "2216.66",
+      "date": "21/09/2023",
+      "instalment": "5/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "2216.66",
+      "date": "28/09/2023",
+      "instalment": "6/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "2216.66",
+      "date": "05/10/2023",
+      "instalment": "7/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "2216.66",
+      "date": "12/10/2023",
+      "instalment": "8/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "2216.66",
+      "date": "19/10/2023",
+      "instalment": "9/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "2216.66",
+      "date": "26/10/2023",
+      "instalment": "10/10",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "50.06",
+      "date": "18/08/2023",
+      "actualPaidDate": "18/08/2023",
+      "instalment": "1/10",
+      "paymentMethodUsed": "1111",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.06",
+      "type": {
+        "Charge": {
+          "amountcapturedAvailable": "50.06",
+          "amountRefunded": "0.00"
+        }
+      },
+      "paymentGatewayFee": 0,
+      "MerchantTransactionFee": 0,
+      "paymentGatewayFeeExcludedSalesTax": 0,
+      "serviceFee": 2.5
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "Ideyas Hotels",
+    "operationType": "",
+    "installmentType": "Weekly",
+    "screen": "CheckoutSummary"
+  }
+}

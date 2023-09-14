@@ -1,0 +1,557 @@
+{
+  "planSummary": {
+    "completionDate": "21/07/2024",
+    "planDate": "01/08/2023",
+    "lastPaymentDate": "17/07/2024",
+    "paymentsFrom": "01/08/2023",
+    "totalCost": "3300.08",
+    "installmentPeriod": "Weekly",
+    "InstallmentDay": "Wednesday",
+    "totalNoOfInstallments": "51",
+    "numberOfInstalment": "50",
+    "installmentAmount": "62.50",
+    "priceWidget": "",
+    "percentageInstallmentPaid": "5",
+    "paymentMethod": "4242",
+    "planStatus": "On Schedule",
+    "planID": "9gmnhzlvlbwl",
+    "remainingAmount": "3125.00",
+    "totalFunds": "175.08",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.08",
+    "noOfInstallmentsToBePaid": "50",
+    "redemptionDate": "20/08/2024",
+    "checkoutCurrency": "AUD",
+    "currencySymbol": "$",
+    "message": "",
+    "paymentPlatform_vendor": "Stripe",
+    "paymentPlatform_variant": "Managed",
+    "checkoutType": "assisted-checkout",
+    "skippedAmount": "",
+    "skippedInstalments": "",
+    "Weekly": {
+      "totalNoOfInstallments": "51",
+      "numberOfInstalment": "50",
+      "instalmentDate": 7,
+      "option": "selected",
+      "status": "Available",
+      "instalmentAmount": "62.50"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "26",
+      "numberOfInstalment": "25",
+      "instalmentDate": 14,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "NaN"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "12",
+      "numberOfInstalment": "11",
+      "instalmentDate": 1,
+      "option": "deselected",
+      "status": "Available",
+      "instalmentAmount": "NaN"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "defaultMinDeposit",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "175.00",
+    "MaxDepositAmount": "1000.00",
+    "depositPaid": "175.08",
+    "depositExcludingRemainder": "175.00",
+    "evenInstalmentAmount": "64.70",
+    "MaxDepositAmount_rounddown": "1000.00",
+    "requiredMinimumDeposit_roundup": "175.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "5.38",
+    "planPayFeesSoFar": "14.13",
+    "merchantRevenue": "160.95",
+    "TotalServiceFeesExcGST": "165",
+    "ServiceFeesExcGSTonPaid": "8.75",
+    "MerchantRevenueExcludingFees": ""
+  },
+  "merchantDetails": {
+    "merchantName": "YapNalp Hotels",
+    "merchantId": "000abcd00ef0",
+    "sub_merchantName": "",
+    "sub_merchantId": "",
+    "checkoutCategory": "merchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "01/08/2023",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["3300.08"],
+    "producItem": "EGJNa",
+    "items": [{ "description": "EGJNa", "redemptionDate": "20/August/2024" }]
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false",
+    "PaymentEligible": "false",
+    "blockedPayInstalment": "false",
+    "updateCadenceblocked": "false",
+    "selectionBlocked": "false",
+    "userExists": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": "",
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation9975@mailinator.com",
+    "firstName": "planpaytesting_firstNameCsYZ",
+    "lastName": "planpaytesting_lastNamepYIw",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false",
+    "userStatus": "Active",
+    "accountCreated": "01/08/2023"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "62.50",
+      "date": "09/08/2023",
+      "instalment": "2/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "16/08/2023",
+      "instalment": "3/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "23/08/2023",
+      "instalment": "4/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "30/08/2023",
+      "instalment": "5/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "06/09/2023",
+      "instalment": "6/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "13/09/2023",
+      "instalment": "7/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "20/09/2023",
+      "instalment": "8/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "27/09/2023",
+      "instalment": "9/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "04/10/2023",
+      "instalment": "10/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "11/10/2023",
+      "instalment": "11/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "18/10/2023",
+      "instalment": "12/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "25/10/2023",
+      "instalment": "13/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "01/11/2023",
+      "instalment": "14/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "08/11/2023",
+      "instalment": "15/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "15/11/2023",
+      "instalment": "16/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "22/11/2023",
+      "instalment": "17/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "29/11/2023",
+      "instalment": "18/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "06/12/2023",
+      "instalment": "19/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "13/12/2023",
+      "instalment": "20/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "20/12/2023",
+      "instalment": "21/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "27/12/2023",
+      "instalment": "22/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "03/01/2024",
+      "instalment": "23/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "10/01/2024",
+      "instalment": "24/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "17/01/2024",
+      "instalment": "25/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "24/01/2024",
+      "instalment": "26/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "31/01/2024",
+      "instalment": "27/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "07/02/2024",
+      "instalment": "28/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "14/02/2024",
+      "instalment": "29/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "21/02/2024",
+      "instalment": "30/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "28/02/2024",
+      "instalment": "31/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "06/03/2024",
+      "instalment": "32/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "13/03/2024",
+      "instalment": "33/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "20/03/2024",
+      "instalment": "34/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "27/03/2024",
+      "instalment": "35/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "03/04/2024",
+      "instalment": "36/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "10/04/2024",
+      "instalment": "37/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "17/04/2024",
+      "instalment": "38/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "24/04/2024",
+      "instalment": "39/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "01/05/2024",
+      "instalment": "40/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "08/05/2024",
+      "instalment": "41/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "15/05/2024",
+      "instalment": "42/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "22/05/2024",
+      "instalment": "43/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "29/05/2024",
+      "instalment": "44/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "05/06/2024",
+      "instalment": "45/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "12/06/2024",
+      "instalment": "46/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "19/06/2024",
+      "instalment": "47/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "26/06/2024",
+      "instalment": "48/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "03/07/2024",
+      "instalment": "49/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "10/07/2024",
+      "instalment": "50/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    },
+    {
+      "amount": "62.50",
+      "date": "17/07/2024",
+      "instalment": "51/51",
+      "status": "On Schedule",
+      "paymentType": "DUETIME",
+      "remainder": "0.00"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "175.08",
+      "date": "01/08/2023",
+      "actualPaidDate": "01/08/2023",
+      "instalment": "1/51",
+      "paymentMethodUsed": "4242",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "remainder": "0.08",
+      "paymentGatewayFee": 5.38,
+      "MerchantTransactionFee": 5.38,
+      "paymentGatewayFeeExcludedSalesTax": 4.890909090909,
+      "serviceFee": 8.75
+    }
+  ],
+  "latePayments": [],
+  "skippedInstallment": [],
+  "LocalEnv": {
+    "applicationName": "assisted-checkout",
+    "merchantName": "YapNalp Hotels",
+    "operationType": "",
+    "installmentType": "Weekly"
+  }
+}

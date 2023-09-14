@@ -1,0 +1,121 @@
+{
+  "planSummary": {
+    "completionDate": "06/10/2023",
+    "planDate": "18/05/2023",
+    "lastPaymentDate": "29/05/2023",
+    "totalCost": "20000.00",
+    "installmentPeriod": "Monthly",
+    "totalNoOfInstallments": "2",
+    "numberOfInstalment": "1",
+    "installmentAmount": "10.00",
+    "priceWidget": "952.38",
+    "percentageInstallmentPaid": "100",
+    "paymentMethod": "4444",
+    "planStatus": "On Schedule",
+    "planID": "maw4wo8d17n3",
+    "remainingAmount": "10.00",
+    "totalFunds": "19990.00",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.00",
+    "noOfInstallmentsToBePaid": "1",
+    "redemptionDate": "31/10/2023",
+    "checkoutCurrency": "GBP",
+    "message": "successful",
+    "paymentPlatform_vendor": "Braintree",
+    "paymentPlatform_variant": "Enterprise",
+    "PaymentEligible": "false",
+    "checkoutType": "customer-checkout"
+  },
+  "depositSettings": {
+    "depositRuleApplied": "max",
+    "depositSetting": "max",
+    "requiredMinimumDeposit": "50.00",
+    "MaxDepositAmount": "19990",
+    "depositPaid": "19990.00",
+    "depositExcludingRemainder": "19990.00",
+    "evenInstalmentAmount": "3333.33"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "",
+    "planPayFeesSoFar": "",
+    "merchantRevenue": "",
+    "TotalServiceFeesExcGST": "1000",
+    "ServiceFeesExcGSTonPaid": "999.5"
+  },
+  "merchantDetails": {
+    "merchantName": "Ideyas Hotels",
+    "merchantId": "apgit66vzosi",
+    "sub_merchantName": "Nosaj Agency",
+    "sub_merchantId": "789abcd01ef2",
+    "checkoutCategory": "submerchant"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "daysFromCancellationtoRedemtion": "19",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "0.00",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": ["20000.00"],
+    "producItem": "Holiday",
+    "items": [
+      { "description": "Holiday", "redemptionDate": "24/October/2023" },
+      { "description": "Holiday", "redemptionDate": "31/October/2023" }
+    ]
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["Holiday"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation7945@mailinator.com",
+    "firstName": "planpaytesting_firstNameoWmM",
+    "lastName": "planpaytesting_lastNameqhUb",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "10.00",
+      "date": "29/05/2023",
+      "instalment": "2/2",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "19990.00",
+      "date": "18/05/2023",
+      "instalment": "1/2",
+      "paymentMethodUsed": "4444",
+      "status": "Paid",
+      "paymentType": "DUETIME"
+    }
+  ],
+  "latePayments": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "Nosaj Agency"
+  }
+}

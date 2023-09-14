@@ -1,0 +1,164 @@
+{
+  "planSummary": {
+    "completionDate": "10/09/2023",
+    "planDate": "27/04/2023",
+    "lastPaymentDate": "31/08/2023",
+    "totalCost": "2221.00",
+    "installmentPeriod": "Monthly",
+    "totalNoOfInstallments": "6",
+    "numberOfInstalment": "5",
+    "installmentAmount": "426.20",
+    "priceWidget": "111.05",
+    "percentageInstallmentPaid": "4",
+    "paymentMethod": "4444",
+    "planStatus": "On Schedule",
+    "planID": "9innu22jvy7b",
+    "remainingAmount": "2131.00",
+    "totalFunds": "90.00",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.00",
+    "noOfInstallmentsToBePaid": "5",
+    "redemptionDate": "10/10/2023",
+    "checkoutCurrency": "AUD",
+    "message": "successful",
+    "paymentPlatform_vendor": "Braintree",
+    "paymentPlatform_variant": "Enterprise"
+  },
+  "depositSettings": {
+    "depositRuleApplied": "min",
+    "depositSetting": "min",
+    "requiredMinimumDeposit": "90.00",
+    "MaxDepositAmount": "2211",
+    "depositPaid": "90.00",
+    "depositExcludingRemainder": "90.00",
+    "evenInstalmentAmount": "370.16"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "0.00",
+    "planPayFeesSoFar": "4.95",
+    "merchantRevenue": "85.05",
+    "TotalServiceFeesExcGST": "111.05",
+    "TotalServiceFeesIncGST": "122.16",
+    "ServiceFeesIncGSTonPaid": "4.95",
+    "ServiceFeesExcGSTonPaid": "4.5"
+  },
+  "merchantDetails": {
+    "merchantName": "Rydges Hotels",
+    "merchantId": "apgit66vzosi"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "daysFromCancellationtoRedemtion": "19",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "0.00",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["2", "1"],
+    "productsAmount": ["687.00", "847.00"],
+    "producItem": "Deluxe City View King Room$Residence King Suite",
+    "items": [
+      {
+        "description": "Deluxe City View King Room",
+        "redemptionDate": "10/October/2023",
+        "depositRefundable": true,
+        "depositRefundableSetting": "productLevel",
+        "refundPolicies": [],
+        "refundPoliciesSetting": "merchantLevel",
+        "nonRefundableDeposit": 0
+      },
+      {
+        "description": "Residence King Suite",
+        "redemptionDate": "20/December/2023",
+        "depositRefundable": false,
+        "depositRefundableSetting": "productLevel",
+        "refundPolicies": [],
+        "refundPoliciesSetting": "merchantLevel",
+        "nonRefundableDeposit": 80
+      }
+    ]
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "false",
+    "eventProcessorError": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["Deluxe City View King Room", "Residence King Suite"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation4648@mailinator.com",
+    "firstName": "planpaytesting_firstNameXywb",
+    "lastName": "planpaytesting_lastNameFAUr",
+    "phoneNumber": "+61345678999",
+    "userVerified": "false"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    {
+      "amount": "426.20",
+      "date": "30/04/2023",
+      "instalment": "2/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "426.20",
+      "date": "31/05/2023",
+      "instalment": "3/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "426.20",
+      "date": "30/06/2023",
+      "instalment": "4/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "426.20",
+      "date": "31/07/2023",
+      "instalment": "5/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    },
+    {
+      "amount": "426.20",
+      "date": "31/08/2023",
+      "instalment": "6/6",
+      "status": "On Schedule",
+      "paymentType": "DUETIME"
+    }
+  ],
+  "paidPayments": [
+    {
+      "amount": "90.00",
+      "date": "27/04/2023",
+      "instalment": "1/6",
+      "paymentMethodUsed": "4444",
+      "status": "Paid",
+      "paymentType": "DUETIME",
+      "paymentGatewayFee": 0,
+      "MerchantTransactionFee": 0
+    }
+  ],
+  "latePayments": [],
+  "LocalEnv": {
+    "applicationName": "merchant-testing",
+    "merchantName": "Rydges Hotels"
+  }
+}

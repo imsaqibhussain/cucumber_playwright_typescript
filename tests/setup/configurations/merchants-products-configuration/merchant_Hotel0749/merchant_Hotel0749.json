@@ -1,0 +1,103 @@
+{
+  "merchant": {
+    "id": "94oivn1kskc5",
+    "name": "merchant_Hotel0749",
+    "companyEmail": "merchant_merchantstestingautomation0678@mailinator.com",
+    "phoneNumber": "+61345678999",
+    "merchantSupportEmail": "merchant_merchantsupportautomation3696@mailinator.com",
+    "customerSupportEmail": "merchant_customersupportautomation7542@mailinator.com",
+    "merchantPageUrl": "https://planpay-next.pr-582.nonprod.planpay.com.au/admin/merchants/create",
+    "billingAddressId": "",
+    "defaultPaymentDeadlineInDays": "30",
+    "serviceFeePercentage": "3",
+    "createdAt": "",
+    "updatedAt": "",
+    "defaultMinimumDepositType": "Currency",
+    "defaultMinimumDepositValue": "3",
+    "countryAlpha3Code": "",
+    "status": "",
+    "googleAnalyticsMeasurementID": "UA-1234",
+    "merchantGroupId": "",
+    "line1": "billing_merchant testing billingAddress",
+    "line2": "",
+    "city": "billing_Testing City",
+    "state": "billing_testingState",
+    "postcode": "2205",
+    "groupName": "merchant_Hotel6257",
+    "country": "United Kingdom"
+  },
+  "subMerchants": [
+    {
+      "id": "gls2tid1729y",
+      "name": "sub_merchant_Hotel4610",
+      "companyEmail": "sub_merchant_merchantstestingautomation4313@mailinator.com",
+      "phoneNumber": "+61345678999",
+      "merchantSupportEmail": "sub_merchant_merchantsupportautomation2496@mailinator.com",
+      "customerSupportEmail": "sub_merchant_customersupportautomation0806@mailinator.com",
+      "merchantPageUrl": "https://planpay-next.pr-582.nonprod.planpay.com.au/admin/merchants/create",
+      "line1": "sub_billing_merchant testing billingAddress",
+      "city": "sub_billing_Testing City",
+      "postcode": "2205",
+      "state": "sub_billing_testingState",
+      "externalCode": ""
+    },
+    {
+      "id": "xfyiy6fxxydw",
+      "name": "sub_merchant_Hotel7199",
+      "companyEmail": "sub_merchant_merchantstestingautomation3856@mailinator.com",
+      "phoneNumber": "+61345678999",
+      "merchantSupportEmail": "sub_merchant_merchantsupportautomation2238@mailinator.com",
+      "customerSupportEmail": "sub_merchant_customersupportautomation8911@mailinator.com",
+      "merchantPageUrl": "https://planpay-next.pr-582.nonprod.planpay.com.au/admin/merchants/create",
+      "line1": "sub_billing_merchant testing billingAddress",
+      "city": "sub_billing_Testing City",
+      "postcode": "2205",
+      "state": "sub_billing_testingState",
+      "externalCode": ""
+    }
+  ],
+  "MerchantDefaultRefundPolicy": [],
+  "MerchantPaymentPlatform": [
+    {
+      "id": "hxqpe6281lwp",
+      "label": "Stripe_AUD_2204",
+      "vendor": "Stripe",
+      "variant": "Enterprise",
+      "createdAt": "2023-09-06T04:44:07.000Z",
+      "updatedAt": "2023-09-06T04:44:07.286Z",
+      "cryptoSalt": "9mjob2jgsbwr",
+      "merchantId": "94oivn1kskc5",
+      "currency": "AUD"
+    },
+    {
+      "id": "4h9bln9pgh8h",
+      "label": "BrainTree_GBP_6428",
+      "vendor": "Braintree",
+      "variant": "Enterprise",
+      "createdAt": "2023-09-06T05:29:21.000Z",
+      "updatedAt": "2023-09-06T05:29:21.249Z",
+      "cryptoSalt": "9m6l65xj1wro",
+      "merchantId": "94oivn1kskc5",
+      "currency": "GBP"
+    },
+    {
+      "id": "i6bh9z76wll2",
+      "label": "BrainTree_GBP_4122",
+      "vendor": "Braintree",
+      "variant": "Enterprise",
+      "createdAt": "2023-09-06T05:29:21.000Z",
+      "updatedAt": "2023-09-06T05:29:21.249Z",
+      "cryptoSalt": "9m6l65xj1wro",
+      "merchantId": "94oivn1kskc5",
+      "currency": "GBP"
+    }
+  ],
+  "MerchantPaymentPlatformCurrency": [
+    { "markupFeePercentage": "5", "transactionFeeIncludedSalesTax": "12" }
+  ],
+  "LocalEnv": {
+    "operationType": "create-submerchant",
+    "nSubmerchant": 1,
+    "operationName": "create"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "planSummary": {
+    "completionDate": "08/08/2023",
+    "planDate": "07/04/2023",
+    "lastPaymentDate": "02/08/2023",
+    "totalCost": "3300",
+    "installmentPeriod": "Weekly",
+    "totalNoOfInstallments": "5",
+    "numberOfInstalment": "4",
+    "installmentAmount": "194.11",
+    "priceWidget": "",
+    "percentageInstallmentPaid": "6",
+    "paymentMethod": "",
+    "planStatus": "",
+    "planID": "",
+    "remainingAmount": "3105.76",
+    "totalFunds": "194.24",
+    "noOfInstallmentsPaid": "1",
+    "Remainder": "0.13",
+    "noOfInstallmentsToBePaid": "16",
+    "redemptionDate": "15/08/2023",
+    "message": "",
+    "Weekly": {
+      "totalNoOfInstallments": "17",
+      "numberOfInstalment": "16",
+      "option": "selected",
+      "instalmentAmount": "194.11"
+    },
+    "Fortnightly": {
+      "totalNoOfInstallments": "9",
+      "numberOfInstalment": "8",
+      "option": "deselected",
+      "instalmentAmount": "194.24"
+    },
+    "Monthly": {
+      "totalNoOfInstallments": "5",
+      "numberOfInstalment": "4",
+      "option": "deselected",
+      "instalmentAmount": "194.24"
+    }
+  },
+  "depositSettings": {
+    "depositRuleApplied": "evenInstalmentAmount",
+    "depositSetting": "default",
+    "requiredMinimumDeposit": "0.00",
+    "MaxDepositAmount": "1000.00",
+    "depositPaid": "194.24",
+    "depositExcludingRemainder": "194.11",
+    "evenInstalmentAmount": "660.00"
+  },
+  "fees": {
+    "totalMerchantTransactionFee": "",
+    "planPayFeesSoFar": "",
+    "merchantRevenue": "",
+    "TotalServiceFeesExcGST": "",
+    "TotalServiceFeesIncGST": "",
+    "ServiceFeesIncGSTonPaid": "",
+    "ServiceFeesExcGSTonPaid": ""
+  },
+  "merchantDetails": {
+    "merchantName": "Ovolo Hotels",
+    "merchantId": "62bd1b7e5e8b"
+  },
+  "cancellationDetails": {
+    "planCancellationDate": "",
+    "refundType": "",
+    "refundAmount": "",
+    "ActualRefundAmountUI": "",
+    "daysFromCancellationtoRedemtion": "19",
+    "FinalNonRefundAmount": "",
+    "CustomerRefundValue": "",
+    "nonRefundableDeposit": "0.00",
+    "totalNonRefundableDeposit": "",
+    "reason": ""
+  },
+  "planDetails": {
+    "productsQuantity": ["1"],
+    "productsAmount": "3300",
+    "producItem": [],
+    "items": []
+  },
+  "flags": {
+    "cancelPlanFlag": "false",
+    "blockedCheckout": "",
+    "eventProcessorError": "false",
+    "latePayment": "false"
+  },
+  "MerchantEnv": {
+    "selectedMerchant": {},
+    "productList": ["Airline flight", "Hotel booking"],
+    "itemPrelocator": "",
+    "itemPostlocator": ""
+  },
+  "customer": {
+    "Email": "planpaytestingautomation5934@planpay.testinator.com",
+    "firstName": "planpaytesting_firstNamefUkv",
+    "lastName": "planpaytesting_lastNameNMAs",
+    "phoneNumber": "+61345678999",
+    "userVerified": "true"
+  },
+  "customerLog": {
+    "Email": "",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": ""
+  },
+  "UpcomingPayments": [
+    { "amount": "194.11", "date": "19/04/2023", "instalment": "2/17" },
+    { "amount": "194.11", "date": "26/04/2023", "instalment": "3/17" },
+    { "amount": "194.11", "date": "03/05/2023", "instalment": "4/17" },
+    { "amount": "194.11", "date": "10/05/2023", "instalment": "5/17" },
+    { "amount": "194.11", "date": "17/05/2023", "instalment": "6/17" },
+    { "amount": "194.11", "date": "24/05/2023", "instalment": "7/17" },
+    { "amount": "194.11", "date": "31/05/2023", "instalment": "8/17" },
+    { "amount": "194.11", "date": "07/06/2023", "instalment": "9/17" },
+    { "amount": "194.11", "date": "14/06/2023", "instalment": "10/17" },
+    { "amount": "194.11", "date": "21/06/2023", "instalment": "11/17" },
+    { "amount": "194.11", "date": "28/06/2023", "instalment": "12/17" },
+    { "amount": "194.11", "date": "05/07/2023", "instalment": "13/17" },
+    { "amount": "194.11", "date": "12/07/2023", "instalment": "14/17" },
+    { "amount": "194.11", "date": "19/07/2023", "instalment": "15/17" },
+    { "amount": "194.11", "date": "26/07/2023", "instalment": "16/17" },
+    { "amount": "194.11", "date": "02/08/2023", "instalment": "17/17" }
+  ],
+  "paidPayments": [
+    {
+      "amount": "194.24",
+      "date": "07/04/2023",
+      "instalment": "1/17",
+      "paymentMethodUsed": ""
+    }
+  ],
+  "latePayments": [],
+  "LocalEnv": {
+    "applicationName": "assisted-checkout",
+    "merchantName": "Ovolo Hotels",
+    "installmentType": "Weekly"
+  }
+}
